@@ -113,7 +113,7 @@ INSERT INTO xcart_categories VALUES (67, 62, 'Furnaces', '', '', 'N', 10, 0, 1, 
 INSERT INTO xcart_categories VALUES (68, 62, 'Washing machines', '', '', 'N', 2, 0, 1, 2, 2, '', 'Y', '', 78, 79);
 INSERT INTO xcart_categories VALUES (70, 62, 'Microwaves', '', '', 'N', 6, 0, 1, 3, 3, '', 'Y', '', 72, 73);
 INSERT INTO xcart_categories VALUES (73, 62, 'Utensils', '', '', 'N', 0, 0, 1, 5, 5, '', 'Y', '', 74, 75);
-INSERT INTO xcart_categories VALUES (75, 0, 'Electronics', '', '', 'Y', 119, 40, 1, 2, 2, '', 'Y', '', 37, 54);
+INSERT INTO xcart_categories VALUES (75, 0, 'Electronics', '', '', 'Y', 120, 40, 1, 2, 2, '', 'Y', '', 37, 54);
 INSERT INTO xcart_categories VALUES (76, 75, 'Audio', '', '', 'N', 6, 0, 1, 3, 3, '', 'Y', '', 40, 41);
 INSERT INTO xcart_categories VALUES (77, 75, 'Amplifiers', '', '', 'N', 8, 0, 1, 3, 3, '', 'Y', '', 38, 39);
 INSERT INTO xcart_categories VALUES (79, 75, 'Digital cameras', '', '', 'N', 5, 0, 1, 4, 4, '', 'Y', '', 46, 47);
@@ -141,10 +141,10 @@ INSERT INTO xcart_categories VALUES (21, 4, 'Puzzles', '', '', 'N', 4, 0, 1, 1, 
 INSERT INTO xcart_categories VALUES (22, 4, 'Toys', '', '', 'N', 0, 0, 1, 5, 5, '', 'Y', '', 62, 63);
 INSERT INTO xcart_categories VALUES (243, 0, 'Sport', '', '', 'Y', 29, 80, 1, 4, 4, '', 'Y', '', 83, 84);
 INSERT INTO xcart_categories VALUES (248, 0, 'Gifts', '', '', 'Y', 119, 55, 1, 4, 4, '', 'Y', '', 65, 66);
-INSERT INTO xcart_categories VALUES (244, 0, 'Appeals', '服装', '', 'Y', 67, 1, 1, 11, 11, '', 'Y', '', 1, 2);
+INSERT INTO xcart_categories VALUES (244, 0, 'Appeals', '服装', '', 'Y', 68, 1, 1, 11, 11, '', 'Y', '', 1, 2);
 INSERT INTO xcart_categories VALUES (5, 0, 'Toys', '', '', 'Y', 27, 2, 1, 46, 0, '', 'Y', '', 3, 12);
 INSERT INTO xcart_categories VALUES (6, 5, 'Cube Goodies', '', '', 'Y', 22, 0, 1, 23, 23, '', 'Y', '', 4, 5);
-INSERT INTO xcart_categories VALUES (7, 5, 'Puzzles', '', '', 'Y', 6, 0, 1, 4, 4, '', 'Y', '', 6, 7);
+INSERT INTO xcart_categories VALUES (7, 5, 'Puzzles', '', '', 'Y', 7, 0, 1, 4, 4, '', 'Y', '', 6, 7);
 INSERT INTO xcart_categories VALUES (8, 5, 'RC Toys', '', '', 'Y', 4, 0, 1, 10, 10, '', 'Y', '', 8, 9);
 INSERT INTO xcart_categories VALUES (9, 5, 'Science Toys', '', '', 'Y', 3, 0, 1, 9, 9, '', 'Y', '', 10, 11);
 INSERT INTO xcart_categories VALUES (10, 0, 'iGoods', '', '', 'Y', 32, 3, 1, 31, 31, '', 'Y', '', 13, 14);
@@ -1023,7 +1023,7 @@ INSERT INTO xcart_config VALUES ('minimal_order_amount', 'Minimum allowed order 
 INSERT INTO xcart_config VALUES ('intershipper_username', 'Intershipper username', '', 'Shipping', 210, 'text', '', '', '');
 INSERT INTO xcart_config VALUES ('intershipper_password', 'Intershipper password', '', 'Shipping', 220, 'password', '', '', '');
 INSERT INTO xcart_config VALUES ('weight_symbol_grams', 'Number of grams in the unit of weight defined by the weight symbol', '1000', 'General', 230, 'numeric', '453.59237', '', 'udoublez');
-INSERT INTO xcart_config VALUES ('realtime_shipping', 'Enable real-time shipping calculation<br /><b>Note</b>: If you choose to enable real-time shipping calculation, be sure to provide the actual address of your company in General settings/Company options', 'Y', 'Shipping', 110, 'checkbox', 'N', '', '');
+INSERT INTO xcart_config VALUES ('realtime_shipping', 'Enable real-time shipping calculation<br /><b>Note</b>: If you choose to enable real-time shipping calculation, be sure to provide the actual address of your company in General settings/Company options', 'N', 'Shipping', 110, 'checkbox', 'N', '', '');
 INSERT INTO xcart_config VALUES ('location_address', 'Company address', '5 Orbit Drive', 'Company', 210, 'text', '', '', '');
 INSERT INTO xcart_config VALUES ('location_city', 'Company city', 'Auckland', 'Company', 220, 'text', '', '', '');
 INSERT INTO xcart_config VALUES ('location_state', 'Company state', 'NZ-AUK', 'Company', 230, 'state', 'NY', '', '');
@@ -1634,9 +1634,9 @@ INSERT INTO xcart_config VALUES ('icons_display_products_cnt', '', 'Y', 'Flyout_
 INSERT INTO xcart_config VALUES ('icons_levels_limit', '', '5', 'Flyout_Menus', 750, 'numeric', '', '', '^[1-9]?$');
 INSERT INTO xcart_config VALUES ('icons_css_files', '', 'a:2:{s:3:\"IE6\";s:8:\"MSIE:6.0\";s:3:\"IE7\";s:8:\"MSIE:7.0\";}', '', 0, 'text', '', '', '');
 INSERT INTO xcart_config VALUES ('bf_generation_date', '', '1444348183', '', 0, 'text', '', '', '');
-INSERT INTO xcart_config VALUES ('db_backup_date', '', '1449016074', '', 0, 'text', '', '', '');
+INSERT INTO xcart_config VALUES ('db_backup_date', '', '1449103303', '', 0, 'text', '', '', '');
 INSERT INTO xcart_config VALUES ('paypal_enable_id', '', 'bf445cabbdb6c7389907ca15e1d55176', '', 0, 'text', '', '', '');
-INSERT INTO xcart_config VALUES ('payment_ttl', '', '1449022058', 'XCART_INNER_EVENTS', 0, 'text', '', '', '');
+INSERT INTO xcart_config VALUES ('payment_ttl', '', '1449118459', 'XCART_INNER_EVENTS', 0, 'text', '', '', '');
 INSERT INTO xcart_config VALUES ('last_rnd_keys_refresh_time', '', '1449098922', '', 0, 'text', '', '', '');
 INSERT INTO xcart_config VALUES ('httpsmod_last_valid', '', 'libcurl', '', 0, 'text', '', '', '');
 INSERT INTO xcart_config VALUES ('paypal_last_pro_solution', '', 'pro', '', 0, 'text', '', '', '');
@@ -2420,9 +2420,9 @@ CREATE TABLE `xcart_customers` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 INSERT INTO xcart_customers VALUES (3, '646471375@qq.com', 'provider', 'P', 'B-8a3a2e91c667f7219d995af068b8999e', 3, 'Mr.', 'Provider', 'Provider', '', '646471375@qq.com', 'http://www.example.com', 1445579394, 1007715510, 'N', '475577bd1e64cd235a83e95a4d266d97', '', 1448941836, '', '', 'en', '', 'N', 0, 0, 0, 'Y', 0, 0, '', 'N', 'Y');
-INSERT INTO xcart_customers VALUES (2, '646471375@qq.com', 'admin', 'A', 'B-3bcc25917f04e16cd2966cfb947358e4', 0, 'Mr.', 'Admin', 'Admin', '', '646471375@qq.com', 'http://www.example.com', 1449102933, 1007715510, 'Y', '', '0', 0, '', '', 'zh', '', 'N', 1445472178, 0, 0, 'Y', 0, 0, '', 'N', 'Y');
+INSERT INTO xcart_customers VALUES (2, '646471375@qq.com', 'admin', 'A', 'B-3bcc25917f04e16cd2966cfb947358e4', 0, 'Mr.', 'Admin', 'Admin', '', '646471375@qq.com', 'http://www.example.com', 1449118459, 1007715510, 'Y', '', '0', 0, '', '', 'en', '', 'N', 1445472178, 0, 0, 'Y', 0, 0, '', 'N', 'Y');
 INSERT INTO xcart_customers VALUES (15, '1791321140@qq.com', '1791321140@qq.com', 'C', 'B-3bcc25917f04e16cd2966cfb947358e4', 0, '', 'buyer', 'last name', '', '1791321140@qq.com', '', 1449099584, 1446101042, 'Y', '', 'N', 0, 'http://localhost/xcart/', '', 'zh', 'a:34:{s:10:\"max_cartid\";i:1;s:8:\"products\";a:1:{i:0;a:31:{s:6:\"cartid\";i:1;s:9:\"productid\";s:5:\"17611\";s:6:\"amount\";d:2;s:7:\"options\";a:0:{}s:10:\"free_price\";s:4:\"0.00\";s:12:\"distribution\";s:0:\"\";s:10:\"wishlistid\";i:0;s:9:\"variantid\";b:0;s:11:\"productcode\";s:8:\"SKU17611\";s:8:\"provider\";s:2:\"12\";s:6:\"weight\";s:4:\"0.50\";s:16:\"shipping_freight\";s:4:\"0.00\";s:13:\"free_shipping\";s:1:\"N\";s:14:\"discount_avail\";s:1:\"Y\";s:12:\"product_type\";s:1:\"N\";s:5:\"price\";d:1000;s:7:\"product\";s:9:\"iphone 6s\";s:5:\"taxes\";a:1:{s:3:\"GST\";a:13:{s:5:\"taxid\";s:1:\"1\";s:8:\"tax_name\";s:3:\"GST\";s:7:\"formula\";s:5:\"ST+SH\";s:12:\"address_type\";s:1:\"S\";s:6:\"active\";s:1:\"Y\";s:18:\"price_includes_tax\";s:1:\"Y\";s:21:\"display_including_tax\";s:1:\"Y\";s:12:\"display_info\";s:1:\"A\";s:9:\"regnumber\";s:18:\"ABN: 123-4567-7890\";s:8:\"priority\";s:1:\"0\";s:4:\"skip\";b:1;s:10:\"rate_value\";i:0;s:16:\"tax_display_name\";s:3:\"GST\";}}s:15:\"product_options\";b:0;s:11:\"free_amount\";b:0;s:11:\"have_offers\";b:0;s:18:\"free_shipping_used\";b:0;s:18:\"special_price_used\";b:0;s:24:\"sp_use_certain_free_ship\";b:0;s:8:\"discount\";i:0;s:15:\"coupon_discount\";s:7:\"1000.00\";s:16:\"discounted_price\";d:1000;s:8:\"subtotal\";s:7:\"1000.00\";s:13:\"display_price\";s:7:\"1000.00\";s:24:\"display_discounted_price\";d:1000;s:16:\"display_subtotal\";d:1000;}}s:6:\"orders\";a:1:{i:0;a:27:{s:10:\"total_cost\";s:7:\"1000.00\";s:13:\"shipping_cost\";s:4:\"0.00\";s:5:\"taxes\";a:0:{}s:8:\"tax_cost\";s:4:\"0.00\";s:8:\"discount\";s:4:\"0.00\";s:13:\"discount_info\";s:0:\"\";s:6:\"coupon\";s:7:\"0211110\";s:15:\"coupon_discount\";s:7:\"1000.00\";s:20:\"discount_coupon_info\";a:15:{s:6:\"coupon\";s:7:\"0211110\";s:8:\"discount\";s:5:\"50.00\";s:11:\"coupon_type\";s:7:\"percent\";s:9:\"productid\";s:1:\"0\";s:10:\"categoryid\";s:1:\"0\";s:7:\"minimum\";s:4:\"0.00\";s:5:\"times\";s:1:\"1\";s:8:\"per_user\";s:1:\"N\";s:10:\"times_used\";s:1:\"0\";s:6:\"expire\";s:10:\"1449295200\";s:6:\"status\";s:1:\"A\";s:8:\"provider\";s:2:\"12\";s:9:\"recursive\";s:1:\"N\";s:19:\"apply_category_once\";s:1:\"N\";s:18:\"apply_product_once\";s:1:\"N\";}s:8:\"subtotal\";s:7:\"2000.00\";s:16:\"display_subtotal\";s:7:\"2000.00\";s:19:\"discounted_subtotal\";s:7:\"1000.00\";s:21:\"display_shipping_cost\";s:4:\"0.00\";s:27:\"display_discounted_subtotal\";s:7:\"1000.00\";s:8:\"products\";a:1:{i:0;a:31:{s:6:\"cartid\";i:1;s:9:\"productid\";s:5:\"17611\";s:6:\"amount\";d:2;s:7:\"options\";a:0:{}s:10:\"free_price\";s:4:\"0.00\";s:12:\"distribution\";s:0:\"\";s:10:\"wishlistid\";i:0;s:9:\"variantid\";b:0;s:11:\"productcode\";s:8:\"SKU17611\";s:8:\"provider\";s:2:\"12\";s:6:\"weight\";s:4:\"0.50\";s:16:\"shipping_freight\";s:4:\"0.00\";s:13:\"free_shipping\";s:1:\"N\";s:14:\"discount_avail\";s:1:\"Y\";s:12:\"product_type\";s:1:\"N\";s:5:\"price\";d:1000;s:7:\"product\";s:9:\"iphone 6s\";s:5:\"taxes\";a:1:{s:3:\"GST\";a:13:{s:5:\"taxid\";s:1:\"1\";s:8:\"tax_name\";s:3:\"GST\";s:7:\"formula\";s:5:\"ST+SH\";s:12:\"address_type\";s:1:\"S\";s:6:\"active\";s:1:\"Y\";s:18:\"price_includes_tax\";s:1:\"Y\";s:21:\"display_including_tax\";s:1:\"Y\";s:12:\"display_info\";s:1:\"A\";s:9:\"regnumber\";s:18:\"ABN: 123-4567-7890\";s:8:\"priority\";s:1:\"0\";s:4:\"skip\";b:1;s:10:\"rate_value\";i:0;s:16:\"tax_display_name\";s:3:\"GST\";}}s:15:\"product_options\";b:0;s:11:\"free_amount\";b:0;s:11:\"have_offers\";b:0;s:18:\"free_shipping_used\";b:0;s:18:\"special_price_used\";b:0;s:24:\"sp_use_certain_free_ship\";b:0;s:8:\"discount\";i:0;s:15:\"coupon_discount\";s:7:\"1000.00\";s:16:\"discounted_price\";d:1000;s:8:\"subtotal\";s:7:\"1000.00\";s:13:\"display_price\";s:7:\"1000.00\";s:24:\"display_discounted_price\";d:1000;s:16:\"display_subtotal\";d:1000;}}s:11:\"have_offers\";b:0;s:7:\"bonuses\";b:0;s:22:\"not_used_free_products\";b:0;s:14:\"blocked_points\";i:0;s:14:\"applied_offers\";b:0;s:11:\"free_offers\";b:0;s:12:\"promo_offers\";b:0;s:8:\"provider\";i:12;s:17:\"payment_surcharge\";i:0;s:19:\"taxed_giftwrap_cost\";s:4:\"0.00\";s:13:\"giftwrap_cost\";s:4:\"0.00\";s:17:\"giftcert_discount\";i:0;}}s:10:\"total_cost\";s:7:\"1000.00\";s:13:\"shipping_cost\";d:0;s:21:\"display_shipping_cost\";d:0;s:8:\"tax_cost\";d:0;s:8:\"discount\";d:0;s:15:\"coupon_discount\";d:1000;s:8:\"subtotal\";d:2000;s:16:\"display_subtotal\";d:2000;s:19:\"discounted_subtotal\";d:1000;s:27:\"display_discounted_subtotal\";d:1000;s:6:\"coupon\";s:7:\"0211110\";s:5:\"taxes\";a:0:{}s:22:\"not_used_free_products\";b:0;s:14:\"blocked_points\";i:0;s:7:\"bonuses\";b:0;s:13:\"is_multiorder\";s:0:\"\";s:17:\"payment_surcharge\";i:0;s:19:\"taxed_giftwrap_cost\";d:0;s:13:\"giftwrap_cost\";d:0;s:31:\"display_cart_products_tax_rates\";s:1:\"N\";s:16:\"product_tax_name\";s:0:\"\";s:17:\"giftcert_discount\";i:0;s:17:\"applied_giftcerts\";a:0:{}s:9:\"paymentid\";s:2:\"18\";s:18:\"is_payment_changed\";b:0;s:10:\"shippingid\";s:4:\"1011\";s:16:\"shipping_warning\";N;s:8:\"delivery\";s:11:\"New Zealand\";s:19:\"sp_deleted_products\";a:1:{i:17611;b:1;}s:11:\"coupon_type\";s:7:\"percent\";s:15:\"discount_coupon\";s:7:\"0211110\";}', 'N', 1446101042, 0, 0, 'Y', 0, 0, '', 'N', 'Y');
-INSERT INTO xcart_customers VALUES (12, 'yestalent123@gmail.com', 'yestalent123@gmail.com', 'P', 'B-3bcc25917f04e16cd2966cfb947358e4', 0, '', 'congce3_seller', 'wang3_seller', '', 'yestalent123@gmail.com', '', 1449100544, 1445480068, 'Y', '', '', 0, '', '', 'zh', '', 'N', 1446099609, 0, 0, 'Y', 0, 0, '', 'N', 'Y');
+INSERT INTO xcart_customers VALUES (12, 'yestalent123@gmail.com', 'yestalent123@gmail.com', 'P', 'B-3bcc25917f04e16cd2966cfb947358e4', 0, '', 'congce3_seller', 'wang3_seller', '', 'yestalent123@gmail.com', '', 1449103965, 1445480068, 'Y', '', '', 0, '', '', 'en', '', 'N', 1446099609, 0, 0, 'Y', 0, 0, '', 'N', 'Y');
 INSERT INTO xcart_customers VALUES (21, 'wys4cb7@126.com', 'wys4cb7@126.com', 'P', 'B-b12badfea19bf0d1d0fb377b2b65db9e', 0, '', 'seller', 'wei', '', 'wys4cb7@126.com', '', 1449103135, 1448943088, 'Y', '', 'N', 0, '', '', 'zh', '', 'N', 1448943088, 0, 0, 'Y', 0, 0, '', 'N', 'Y');
 
 --
@@ -3171,83 +3171,50 @@ INSERT INTO xcart_form_ids VALUES ('e5c82e05b90794437a487cd5c979aee6', '27524e1f
 INSERT INTO xcart_form_ids VALUES ('e5c82e05b90794437a487cd5c979aee6', '500b44e085662b33452fe0bb56a92bee', 1449031307);
 INSERT INTO xcart_form_ids VALUES ('e5c82e05b90794437a487cd5c979aee6', '4091948fa96159d206498446d21df683', 1449031330);
 INSERT INTO xcart_form_ids VALUES ('e5c82e05b90794437a487cd5c979aee6', '8fb1c27ba52266910ac096f35109d32d', 1449031332);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', 'ae6a754a9d346123be72df170a0dba59', 1449102246);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '2a3b9fde8589d0867b2478c4e1e69ca6', 1449102107);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', 'e3af44996392775f382c366dee705e27', 1449101988);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', 'bdf144ff5ab9f83b43ec14dd412c8ded', 1449102362);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '7a274fe2eb2baaaa65bdebbd71ea791c', 1449101998);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '69af8f0b78a83860e2d412c92d1a30a3', 1449102266);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', 'a875b9d0354592d32fbdb8d5e87218d2', 1449102240);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '0ad300670ae1aa231a7d93db113184fd', 1449101935);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '17233004a912e0cdea718066f72a90e9', 1449102359);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '772958534823801bc531dcf7ba8f9a44', 1449102323);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '6b82b4dd87c387879c4790345a3c34d7', 1449102243);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '5cd6ea2612399e00350cc1af594ce1f7', 1449102091);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '5032772b0d545d61dcd08c501d868dc1', 1449101941);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', 'e6f37c70dac667425833e1ba7494347c', 1449102102);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '4e95d425028ddcde8a04f6f2c60845aa', 1449102460);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '6f3759e174ccc9cbe76af8f71a3d8b01', 1449102421);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '29316f4516bdb7c9ecbf9ecd2f647ad9', 1449102417);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '385232fcabf85b775778f63aeb558f88', 1449102397);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '123a23f6ba07cef8304e8af25cadf41a', 1449102573);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '344b3dec4154af854b59f7f31d6a21dd', 1449102513);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', 'f05a0bc6788932d552dc96045efd2ea4', 1449103301);
-INSERT INTO xcart_form_ids VALUES ('4b8349e002278707b321f2bae834a5cd', '419bc0f715c1470eeb8f0d897f32af49', 1449100197);
-INSERT INTO xcart_form_ids VALUES ('4b8349e002278707b321f2bae834a5cd', '1093088e4b32e2f93c905f944de24c9e', 1449100207);
-INSERT INTO xcart_form_ids VALUES ('4b8349e002278707b321f2bae834a5cd', '451b7fc8c110c7da8d73f859ddbb9377', 1449100214);
-INSERT INTO xcart_form_ids VALUES ('4b8349e002278707b321f2bae834a5cd', '64fec804526d4b96300a2cb112064363', 1449100217);
-INSERT INTO xcart_form_ids VALUES ('4b8349e002278707b321f2bae834a5cd', 'e184bae3c65ab4405a8ab38111c5f1ed', 1449100236);
-INSERT INTO xcart_form_ids VALUES ('4b8349e002278707b321f2bae834a5cd', '11223ac6d890d5ddc2081f48b1140523', 1449100247);
-INSERT INTO xcart_form_ids VALUES ('4b8349e002278707b321f2bae834a5cd', 'c4af719a2daf3d45988b2200c00f1a55', 1449100261);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '2f7237108beee50393c8d24ce788c40b', 1449100443);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', 'd4cb31a9a1cd1f2d2843c6d2ad1eadca', 1449100448);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '24b5113104edb4f1da149b1a33cbc00a', 1449100451);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '1d20abec579c1402f473d98081bb4667', 1449100454);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', 'a5fff20abec523c815b45e53a09cc7eb', 1449100461);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '9929e3c2dca4c6563d7d9b119dc5f455', 1449100470);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', 'd135539680a0e31057ab2bece79f5160', 1449100472);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', 'fdffc07681d8bad8a23fb123b14fca19', 1449100544);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '16a63d174682c1c43282a175104b2ccd', 1449100672);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '1f950f5da0ebe75ba493dbf482cf222d', 1449100676);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', 'b68157aac2b7f00b99326a59ad58501f', 1449100692);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '61564fc67515fb6af042f8d4b8164863', 1449101118);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', 'd5266084be5927fc1656049690f01d87', 1449101142);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', 'c4dda0d8eaf9f40ea800aab9500d09ad', 1449101145);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '512286d52f41121337472722b0a87e7f', 1449101147);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '65f98195b68619ef8405c760ae961442', 1449101204);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '1f68f7cb28bd6bd24f9f8be9d7c60bf7', 1449101335);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '56b691e1498a42e9c9124a43ac2325dc', 1449102579);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '87ebe6d3404b508efbc80f638ff15901', 1449102586);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '5f617c970f7f78ae81e484d4f3466457', 1449102603);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '0ee8131a69ccb3ea4d36f3f638996567', 1449102615);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', 'a0b369b50ad05ff44ea2ac4632981bb1', 1449102625);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', 'a5b4e9ccf6d928ea041d9728e08028e2', 1449102627);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '2bfff1da192f481f12a9862ce6f5035a', 1449102630);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '5997f65a9f1919739ded8e29eca90569', 1449102633);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '1fae6cf40684a5d885df6c173d91f841', 1449102641);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '83a647fc8c918bb9d5bdd8cfff57cfc5', 1449102646);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', 'c8f07f988936194ea45a53f92d8996a4', 1449102649);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '7808528ae457c96df75e76581cac2664', 1449102653);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', 'c9d4e4d6155ebcf56e0fd300b60ecada', 1449102655);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', 'f6110f503562b4d385f6816189f0306b', 1449102671);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '50ffc01792b54a152fd0adeb3f9c2f87', 1449102700);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '89f69cfb762d38cada08970581126ff9', 1449102807);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '5b6992959984b3d654bbc3d2dbf3919f', 1449102809);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', 'b215363102cf13fd1eb5ee93c59b9a86', 1449102815);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '7ce3c29ef2c747056abb5d0df8d7a33d', 1449102818);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', 'b4b0e22423788dcc957ea0e62ed41ade', 1449102824);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '3c2a5786fc3356609428a0e829547158', 1449102827);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', 'd503fe66de8d449ba6a27134d5d3eff4', 1449102835);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '3389fae89a6e699bb86166f883fa4d52', 1449102842);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', 'db273d048f43dd5d13a942871cba23bf', 1449102844);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '218a3ab0a13181479597a2fcdb74b822', 1449102849);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', 'a4fd914d76f93d64d4eaae4f524fbb23', 1449102899);
-INSERT INTO xcart_form_ids VALUES ('6376f67322e2479ecd293974a71d283d', '9d74897dd94292358dd58e8ede45a581', 1449102909);
+INSERT INTO xcart_form_ids VALUES ('c8f4cb6ee2bfa153645cd75917157308', 'c29e311ac43fa5a15a6930c6737a1a6c', 1449105379);
+INSERT INTO xcart_form_ids VALUES ('c8f4cb6ee2bfa153645cd75917157308', '9401fbca48bb54ed81040c19c399af88', 1449105371);
+INSERT INTO xcart_form_ids VALUES ('e48a43e79f2aec1a463dd057c0e40900', '68770534dc742632e2458a5338cdc961', 1449105349);
+INSERT INTO xcart_form_ids VALUES ('e48a43e79f2aec1a463dd057c0e40900', '15e5e8b8cfce30c6fb89d32c6730cdf6', 1449105261);
+INSERT INTO xcart_form_ids VALUES ('e48a43e79f2aec1a463dd057c0e40900', 'a05d718857902024e8a97306eee25fc8', 1449105219);
+INSERT INTO xcart_form_ids VALUES ('e48a43e79f2aec1a463dd057c0e40900', 'ed6fc2cdc8dc4f2981a2dc654e7ec8cd', 1449105216);
+INSERT INTO xcart_form_ids VALUES ('e48a43e79f2aec1a463dd057c0e40900', '770507314a4f9b500924d7af08ec476a', 1449105209);
+INSERT INTO xcart_form_ids VALUES ('bc4da5cad5cd6c82ea3142cbf78aaf9a', 'c78c5809d0306f35c99aa85cbae79fbe', 1449104832);
+INSERT INTO xcart_form_ids VALUES ('bc4da5cad5cd6c82ea3142cbf78aaf9a', '4d7efadb64c634d233b671aa8a86b613', 1449104824);
+INSERT INTO xcart_form_ids VALUES ('bc4da5cad5cd6c82ea3142cbf78aaf9a', 'ca66aca3662d6c2c219607343251dc3d', 1449104822);
+INSERT INTO xcart_form_ids VALUES ('bc4da5cad5cd6c82ea3142cbf78aaf9a', '113c64ea21f4a250e874bad76ae97c7c', 1449104818);
+INSERT INTO xcart_form_ids VALUES ('bc4da5cad5cd6c82ea3142cbf78aaf9a', '643a8a7c23ba66c88731b851e200b1b7', 1449104776);
+INSERT INTO xcart_form_ids VALUES ('bc4da5cad5cd6c82ea3142cbf78aaf9a', '5c77610fa587930f18821d7286fb3ad4', 1449104772);
+INSERT INTO xcart_form_ids VALUES ('bc4da5cad5cd6c82ea3142cbf78aaf9a', '635b5d14f67c2e7a5b87300b2e72ba6f', 1449104766);
+INSERT INTO xcart_form_ids VALUES ('bc4da5cad5cd6c82ea3142cbf78aaf9a', 'cf66c2868c573cd084456518216a98f9', 1449104752);
+INSERT INTO xcart_form_ids VALUES ('bc4da5cad5cd6c82ea3142cbf78aaf9a', 'e17aa67246b2f1d5a81341d74deb1bd2', 1449104748);
+INSERT INTO xcart_form_ids VALUES ('bc4da5cad5cd6c82ea3142cbf78aaf9a', 'cd45f8c8c15b410759554b6cac90c0cf', 1449104744);
+INSERT INTO xcart_form_ids VALUES ('bc4da5cad5cd6c82ea3142cbf78aaf9a', '000ff97fca8b32cfb853371edd629541', 1449104742);
+INSERT INTO xcart_form_ids VALUES ('bc4da5cad5cd6c82ea3142cbf78aaf9a', 'd7dcc9f60257477f7dc510317941ad72', 1449104114);
+INSERT INTO xcart_form_ids VALUES ('bc4da5cad5cd6c82ea3142cbf78aaf9a', '78bbf9837eb6e2ced0b0ba06902d21c2', 1449104106);
+INSERT INTO xcart_form_ids VALUES ('bc4da5cad5cd6c82ea3142cbf78aaf9a', 'ba9853aa7fd5440a53d393252107693a', 1449104104);
+INSERT INTO xcart_form_ids VALUES ('bc4da5cad5cd6c82ea3142cbf78aaf9a', 'c10e6d4800f81e954acfdc5432ee1612', 1449104101);
+INSERT INTO xcart_form_ids VALUES ('bc4da5cad5cd6c82ea3142cbf78aaf9a', 'e67b4d08bbebf79ac9bca07afdbc20e8', 1449104041);
+INSERT INTO xcart_form_ids VALUES ('bc4da5cad5cd6c82ea3142cbf78aaf9a', 'e2ebd7d2e975cc1be75907388175d10d', 1449104033);
+INSERT INTO xcart_form_ids VALUES ('bc4da5cad5cd6c82ea3142cbf78aaf9a', '4b6ee42a72ea252ec5b74e9dd8c9ffff', 1449104028);
+INSERT INTO xcart_form_ids VALUES ('c8f4cb6ee2bfa153645cd75917157308', '4c681b34669a6c54fbf43a6fbaa21cd9', 1449103697);
+INSERT INTO xcart_form_ids VALUES ('c8f4cb6ee2bfa153645cd75917157308', '8aea7265248a71c48560df5f280d510e', 1449103695);
+INSERT INTO xcart_form_ids VALUES ('c8f4cb6ee2bfa153645cd75917157308', '0f774e403699844d6e19ff05f7e67e52', 1449103685);
+INSERT INTO xcart_form_ids VALUES ('2a06b9be561d7464274af4926e750715', '155e43309651e9db20427360f736121d', 1449118459);
+INSERT INTO xcart_form_ids VALUES ('bc4da5cad5cd6c82ea3142cbf78aaf9a', '063fe4e88a34da3abdaf92dc46a6ed6f', 1449103983);
+INSERT INTO xcart_form_ids VALUES ('bc4da5cad5cd6c82ea3142cbf78aaf9a', 'ecb4cb9e9119276dedf097d6126029c5', 1449103973);
+INSERT INTO xcart_form_ids VALUES ('bc4da5cad5cd6c82ea3142cbf78aaf9a', '0d8f7660fb011e87af39ef1cb5770b7f', 1449103965);
+INSERT INTO xcart_form_ids VALUES ('c8f4cb6ee2bfa153645cd75917157308', 'ff07232f5b3c160bf7ffc769f3eddefb', 1449103880);
+INSERT INTO xcart_form_ids VALUES ('c8f4cb6ee2bfa153645cd75917157308', '53f5f278a413d7584e8c4b4f06bce528', 1449103877);
+INSERT INTO xcart_form_ids VALUES ('c8f4cb6ee2bfa153645cd75917157308', '16ab62c2c4a7543d887ca37a94aeb422', 1449103868);
+INSERT INTO xcart_form_ids VALUES ('c8f4cb6ee2bfa153645cd75917157308', 'b372e96046f3483d516a7cfcead4947e', 1449103864);
+INSERT INTO xcart_form_ids VALUES ('2a06b9be561d7464274af4926e750715', '8db4a9859cf8688237cf025becd75986', 1449118464);
 INSERT INTO xcart_form_ids VALUES ('c8f4cb6ee2bfa153645cd75917157308', 'fdff5c3beee7c0560164257cbe784124', 1449102933);
 INSERT INTO xcart_form_ids VALUES ('c8f4cb6ee2bfa153645cd75917157308', '8b9d92f8e68bbc8ba094a17993d76368', 1449102941);
 INSERT INTO xcart_form_ids VALUES ('c8f4cb6ee2bfa153645cd75917157308', '0081d823f9c5d8d1d887adde3d2f6c84', 1449102943);
 INSERT INTO xcart_form_ids VALUES ('c8f4cb6ee2bfa153645cd75917157308', '67d0af3e821b190b66472f7baad143e2', 1449103138);
 INSERT INTO xcart_form_ids VALUES ('c8f4cb6ee2bfa153645cd75917157308', '920992529713f47b696c78e5067d672b', 1449103142);
+INSERT INTO xcart_form_ids VALUES ('c8f4cb6ee2bfa153645cd75917157308', '7d4c6f337b790ddf88d421e5ad43cc2a', 1449105382);
+INSERT INTO xcart_form_ids VALUES ('c8f4cb6ee2bfa153645cd75917157308', '9bf8dfd2e5a905dd92a4a8725f7500be', 1449105542);
 
 --
 -- Table structure for table `xcart_gcheckout_orders`
@@ -13531,8 +13498,8 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_this_page_url', 'This page URL', 
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_this_url', 'this URL', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_this_week', '这周', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_through', 'Through', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_thumbnail', 'Thumbnail', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_thumbnail_msg', '(recommended size: 50x50-150x150)', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_thumbnail', '缩略图', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_thumbnail_msg', '(推荐大小: 50x50-150x150)', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_tick_here_to_apply_patch', 'Tick here to continue upgrading regardless of the found problems', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_time_elapsed_n_secs', 'Time elapsed: {{sec}} second(s)', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_time_limit', 'Server time limit for this operation has been exceeded', 'Labels');
@@ -14012,7 +13979,7 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_show_all_ratings', 'Show all rati
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_show_as_news', 'Show as news', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_show_all_features', 'Show all features', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_should_not_exceed', 'Should not exceed', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_short_description', 'Short description', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_short_description', '简短描述', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_shop_url', 'Shop URL', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_shop_logs', 'Logs', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_shop_statistics', 'Shop statistics', 'Labels');
@@ -14028,7 +13995,7 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_shipping_options', 'Real-time pro
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_shipping_methods_info', 'Shipping methods info', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_shipping_methods', 'Shipping methods', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_shipping_method', 'Shipping method', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_shipping_markups', 'Shipping markups', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_shipping_markups', '发货标记', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_shipping_label', 'Shipping label', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_shipping_labels', 'Shipping labels', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_shipping_label_error', 'A shipping label cannot be generated for the selected shipping method.', 'Labels');
@@ -14088,7 +14055,7 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_select_address', 'Select address'
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_select_data_to_remove', 'Select data you want to remove', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_secure_login', 'Secure login', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_secure_login_form', 'Secure login form', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_see_also', 'See also', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_see_also', '参照', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_see_details', 'See details', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_see_log', 'See log for details', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_select', 'Select', 'Labels');
@@ -14103,7 +14070,7 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_search_string', 'Search string', 
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_search_this_month_orders', 'All orders this month', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_search_today_orders', 'All orders today', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_search_this_week_orders', 'All orders this week', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_search_products', 'Search for products', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_search_products', '查找商品', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_search_orders_menu', '搜索订单', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_search_orders', '搜索订单', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_search_in_subcategories', '包括子目录', 'Labels');
@@ -14307,11 +14274,11 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_ps_paypal_pro_requirement_failed_
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_ps_paypal_non_capture_message', 'To complete the transaction you should go to your PayPal account', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_provider_register', 'Become a provider', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_provider_s', 'provider(s)', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_provider_promotion_ef_note', 'This section allows the adding of additional non-standard fields to the products table. For example, this might be used to add an Author and ISBN field to a product that is a book.', 'Text');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_provider_promotion_ef_note', '这个允许将非标准的附加字段添加到产品列表。例如，它可以将作者和国际标准书号的字段添加到书籍产品。', 'Text');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_provider_login_title', '商家页面登录', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_provider_commissions', 'Provider commissions', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_provider_commissions', '商家佣金', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_provider_click_to_register', 'Click here to register as a provider', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_provider', 'Provider', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_provider', '提供商', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_providers_zone', 'Providers zone', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_prolong_ttl', 'Prolong TTL', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_protocol', 'Protocol', 'Labels');
@@ -14334,7 +14301,7 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_product_template_keyword'
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_quantity_from_to', '(from {{min}} to <span class=\"product-quantity-number\">{{max}}</span>)', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_productid_template_keyword', 'Product ID', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_page_name_format', 'Product page filename template', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_owner', 'Product owner', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_owner', '产品所有人', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_option_jscript_importing_', 'Importing product options\' JavaScript code ...', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_option_jscript_checking_', 'Checking product options\' JavaScript code...', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_option_jscript_exporting_', 'Exporting product options\' JavaScript code...', 'Labels');
@@ -14350,11 +14317,11 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_options_exporting_', 'Exp
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_options_expired', 'Some product options have been modified since the product was added to the cart. Please check.', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_options_checking_', 'Checking product options...', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_modify', '自定义商品', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_name', 'Product name', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_name', '产品名称', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_options', 'Product options', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_feature_values_importing_', 'Importing product feature values...', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_image', 'Product image', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_images', 'Product images', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_images', '产品图片', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_image_save_msg', 'Product images will be saved after you click on \"Save\"', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_info', 'Product info', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_links', 'Product links', 'Labels');
@@ -14370,7 +14337,7 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_feature_values_checking_'
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_feature_classes', '商品类别', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_features_chart', 'Product features chart', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_feature', 'Product features', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_details', 'Product details', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_details', '产品详情', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_delete_confirmation_header', 'Do you really want to remove the product', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_configurator_types_checking_', 'Checking product configurator types...', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_product_configurator_types_exporting_', 'Exporting product configurator types...', 'Labels');
@@ -14543,7 +14510,7 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_reconfigure', 'Reconfigure'
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_requirements_for_product', 'Requirements for the product', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_reset_configuration', 'Reset to default configuration', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_save_msg', 'Click the \"Update\" button to save the changes', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_search', 'Search for configurable products', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_search', '搜索可配置产品', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_search_allproducts', 'All products', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_search_assigned_types', 'Assigned types', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_search_bundled', 'Bundled', 'Labels');
@@ -14587,13 +14554,13 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_components', 'Components', 
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_component_of', 'Component of', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_composite_product', 'Composite product', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_configure', 'Configure', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_confproduct', 'Add a configurable product', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_confproduct', '添加可配置产品', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_confwiz_management', 'Configuration wizard management', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_def', 'Default', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_default_product', 'Default product', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_default_product_not_defined', 'No default product is assigned to the slot', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_default_product_popup_header', 'Select a default product for the slot \"{{slot_name}}\"', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_define_types', 'Define product types', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_define_types', '定义产品类型', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_base_price', 'Base product price', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_clean_configuration', 'Clean out configuration', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_clean_slot', 'Clean slot', 'Labels');
@@ -14610,7 +14577,7 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_about_product_specification
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_about_module', 'About Product Configurator module', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_about_conf_steps_slots', 'Configurator steps and slots', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_pay_per_visit', 'Pay per visit', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_about', 'About Product Configurator', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_about', '添加产品配置', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_pconf_about_bundled_products', 'Bundled products', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_pay_per_campaign', 'Pay per campaign', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_paypal_wrong_state_note', 'The state specified in your address is not on the list of states supported by the store. Please contact the store administrator for details or change your address on this page.', 'Labels');
@@ -14856,7 +14823,7 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_option', 'Option', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_optional', 'optional', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_optional_services', 'Optional services', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_open_storefront_warning', 'When the storefront is closed, nobody will be able to shop at your store.\n Are you sure you want to close the storefront?', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_open_storefront', 'The <a href=\"{{STOREFRONT}}\">Storefront</a> is <span class=\"emph\">open</span>', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_open_storefront', '<a href=\"{{STOREFRONT}}\">店面</a> 正在<span class=\"emph\">开启</span>', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_open_customer_area', 'Open customer area in a new window', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_open_in_popup_window', 'Open in popup window', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_open_new_window', 'Open a new window', 'Labels');
@@ -14887,7 +14854,7 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_N_counties', '{{items}} counties'
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_n_items', '{{items}} item(s)', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_n_items_in_wishlist', '{{items}} item(s) in wish list', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_number_of_orders', 'Number of orders', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_no_thumbnail_uploaded', 'No thumbnail uploaded', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_no_thumbnail_uploaded', '暂无缩略图上传', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_number', 'Number', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_numbers_and_symbols', 'Numbers and letters', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_number_of_customers', 'Number of customers', 'Labels');
@@ -14907,7 +14874,7 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_no_manufacturer', 'Manufacturer i
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_no_links_defined', 'No links defined', 'Text');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_no_items_have_been_selected', 'No items have been selected', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_no_html_content', 'No HTML content', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_no_image_uploaded', 'No image uploaded', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_no_image_uploaded', '暂无图片上传', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_no_items_available', 'No items available', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_no_available_patches', 'No available patches', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_no_categories_viewed', 'No categories viewed', 'Labels');
@@ -14963,7 +14930,7 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_news_list_show_messages', 'Show m
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_news_list_short_name', 'Short name', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_news_list_message_details', 'News list message details', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_news_list_messages', 'News list messages', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_need_help', 'Need help?', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_need_help', '需要帮助？', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_never_logged_in', 'Never logged in', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_new', 'New', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_news', 'News', 'Labels');
@@ -15099,12 +15066,12 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_manufacturer_manufid_template_key
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_manufacturer_details', 'Manufacturer details', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_manufacturer_banner', 'Manufacturer banner', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_manufacturer_clean_url_err', 'Manufacturerid = {{id}}; Title: {{manufacturer}}\n{{admin_location}}/manufacturers.php?manufacturerid={{id}}', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_manufacturer', 'Manufacturer', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_manufacturer', '生产商', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_manufacturers_list', 'Manufacturers list', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_manufacturers', '生产商', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_manage_shipping_methods', 'Manage shipping methods', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_main_page', '主页', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_main_category', 'Main category', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_main_category', '主目录', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_maintenance', 'Maintenance', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_mail_address', 'Mail address', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_mailchimp_subscription', 'Subscribe me to the company newsletter', 'Labels');
@@ -15183,7 +15150,7 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_landing_page', 'Landing page with
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_language', '语言', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_label', 'Label', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_la', 'Latin America', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_keywords', 'Search keywords', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_keywords', '搜索关键词', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_keyword', '关键字', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_keep_pass_unchanged', 'To keep the password unchanged, leave the \'Password\' and \'Confirm password\' fields empty', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_keep_current_address', 'Keep current address', 'Labels');
@@ -15210,7 +15177,7 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_ip_blocked', 'IP address {{ip}} b
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_ip_added_successfull', 'The IP address has been successfully added to the list of allowed IP addresses.', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_ip_address', 'IP', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_ip_address_blocked', 'IP address is blocked', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_in_this_section', 'In this section', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_in_this_section', '本节目录', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_ip_added_not_successfull', 'The IP address has not been added to the list of allowed IP addresses.', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_in_category', 'In category', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_in_stock', 'Quantity in stock', 'Labels');
@@ -15277,7 +15244,7 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_image_cache_build_gd_err', 'Not e
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_image_cache_build_successfull', 'Image cache has been re-generated successfully. Generated {{count}} images.', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_image_cache_build_ttl_err', 'Not enough system resources to complete image cache re-generation: the time limit for the operation has been exceeded. Generated {{count}} image(s) out of {{total}}.', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_images_transferring_log', 'Images transferring log', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_image', 'Image', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_image', '图片', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_images_location', 'Images location', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_http_x_forwarded_for', 'HTTP_X_FORWARDED_FOR', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_ideal_basic_limit', 'maximum 5 characters', 'Labels');
@@ -15605,7 +15572,7 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_extra_fields_name', 'Field name',
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_extra_fields_exporting_', 'Exporting extra fields...', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_extra_fields_default_value', 'Default value', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_extra_fields_checking_', 'Checking extra fields...', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_extra_fields', 'Extra fields', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_extra_fields', '额外区域', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_export_users_clear', 'User set has been successfully cleared', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_export_users_add', 'User set has been successfully saved for further export', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_export_success', 'Exporting has been successfully completed<br /><a href=\"#packs\">Export packs</a>', 'Labels');
@@ -15737,8 +15704,8 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_detailed_images', 'Detailed image
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_detailed_images_checking_', 'Checking detailed images...', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_detailed_images_exporting_', 'Exporting detailed images...', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_detailed_images_importing_', 'Importing detailed images...', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_details', 'Details', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_det_description', 'Detailed description', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_details', '详细说明', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_det_description', '详细描述', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_det_images_in_body', 'within the body of the Product details page', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_det_images_in_popup', 'in a popup window', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_dhl_ext_country', 'Precise country name for Airborne / DHL shipping system', 'Labels');
@@ -15781,7 +15748,7 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_deleted_from_cart', 'Deleted from
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_defined_shipping_methods', 'Defined shipping methods', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_default_languages', 'Default languages', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_default_value', 'Default value', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_default_editor', 'Default editor', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_default_editor', '默认编辑器', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_default_image', 'Default image', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_default_customer_language', 'Default customer language', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_default_admin_language', 'Default admin language', 'Labels');
@@ -15985,14 +15952,14 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_click_here_for_details', 'click h
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_click_here_for_help', 'Click here for help', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_clickable', 'clickable', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_clicks', 'Clicks', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_clean_url_disabled_mode_warning_provider', '<strong>Note:</strong> The Clean URLs functionality is now disabled.', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_clean_url_disabled_mode_warning_provider', '<strong>备注：</strong> 简洁链接功能现已禁用。', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_clean_url_format_warning', '<strong>Note:</strong> The maximum length of a clean URL value is 250 characters. Allowed characters are A-Z, a-z, 0-9, slash (/), point (.), hyphen (-), and underscore (_). Do not use spaces, and do not include slashes at the beginning or at the end. Do not include the web path to your store\'s directory or file extensions, like \".html\" (Extensions are set separately for each type of pages through the <a href=\"{{seo_option_page}}\">General settings->SEO options</a> section).', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_clean_url_format_warning_provider', '<strong>Note:</strong> The maximum length of a clean URL value is 250 characters. Allowed characters are A-Z, a-z, 0-9, slash (/), point (.), hyphen (-), and underscore (_). Do not use spaces, and do not include slashes at the beginning or at the end. Do not include the web path to your store\'s directory or file extensions, like \".html\" (Extensions are set separately for each type of pages by the store\'s administrator).', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_clean_url_history', 'Clean URL history', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_clean_url_manage_history', 'Manage Clean URLs history', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_clean_url_save_old', 'Save the old value in the Clean URL history if the new value is different.', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_clean_url_value', 'Clean URL value', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_clean_url_what_is', 'What is Clean URL?', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_clean_url_what_is', '什么是简洁链接？', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_clear', 'Clear', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_clear_all_aff_statistics', 'Clear Affiliate module statistics', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_clear_all_bench_statistics', 'Clear all benchmark statistics', 'Labels');
@@ -16008,7 +15975,7 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_clear_templates_cache', 'Clear te
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_clear_tmp_dir', 'Remove temporary files', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_clean_urls_total_num', 'Total num of objects', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_clean_url_disabled_mode_warning', '<strong>Note:</strong> The Clean URLs functionality is now disabled. You can enable it through the <a href=\"{{seo_option_page}}\">General settings->SEO options</a> section.', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_clean_url', 'Clean URL', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_clean_url', '简洁链接', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_clean_urls', 'Clean URLs', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_clean_urls_info', 'Clean URLs info', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_clean_urls_missing_urls_num', 'Num of objects with missing clean URLs', 'Labels');
@@ -16017,7 +15984,7 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_class_options_are_deleted', 'Clas
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_city', '城市', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_city_masks', 'City masks', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_city_mask_examples', 'City mask examples', 'Text');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_classification', 'Classification', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_classification', '分类', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_ch_settings', 'Settings', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_cities', 'Cities', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_ch_bank_routing', 'Bank routing number', 'Text');
@@ -16373,7 +16340,7 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_backordered', 'Backordered', 'Lab
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_backup_database', 'Backup database', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_avail_for_sale', 'Available for sale', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_average_time', 'Average time', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_availability', 'Availability', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_availability', '实用性', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_available_banners', 'Available banners', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_auto_resize_time_limit', 'Unsharp mask filtering was taking too long on current server configuration. That filter was not used for image. You should increase server time limit configuration to use the feature', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_auto_resize_no_gd_library', 'Automatic generation of thumbnails is unavailable: GD library is not installed on the server or not configured properly.', 'Labels');
@@ -16580,14 +16547,14 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_affiliate_plan', 'Affiliate plan'
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_affiliate_plans', 'Affiliate plans', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_affiliate_plan_management', 'Affiliate plan management', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_affiliate_statistics', 'Affiliate statistics', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_advanced_editor', 'WYSIWYG editor', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_advanced_editor', '可视化编辑器', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_advanced_order_management', 'Advanced Order Management', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_add_your_review', '发表你的评论', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_administrator', 'Administrator', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_admin_login_title', 'Log in to admin area', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_admin_s', 'administrator(s)', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_adm_add_product', 'Add product', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_adm_product_management', 'Product management', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_adm_add_product', '添加商品', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_adm_product_management', '产品管理', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_add_to_wl', 'Add to wish list', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_add_update', 'Add/Update', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_add_update_language', 'Add/Update language', 'Labels');
@@ -16602,7 +16569,7 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_add_row', 'Add row', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_add_shipping_charge_values', 'Add shipping charge values', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_add_shipping_markup_values', 'Add shipping markup values', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_add_shipping_method', 'Add shipping method', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_add_product', 'Add product', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_add_product', '添加商品', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_add_product_banner', 'Add Product banner', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_add_review', '添加评论', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_add_option_value', 'Add option value', 'Labels');
@@ -16669,7 +16636,7 @@ INSERT INTO xcart_languages VALUES ('zh', 'lbl_additional_fields', 'Additional f
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_additional_information', 'Additional information', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_additional_options', 'Additional options', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_added_by_admin', 'Added by administrator', 'Labels');
-INSERT INTO xcart_languages VALUES ('zh', 'lbl_additional_categories', 'Additional categories', 'Labels');
+INSERT INTO xcart_languages VALUES ('zh', 'lbl_additional_categories', '附加目录', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_access_for_ip_granted', 'Access to the Admin area from the specified IP address has been granted.', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_accounts_ready_to_be_paid', 'Payable accounts', 'Labels');
 INSERT INTO xcart_languages VALUES ('zh', 'lbl_account_activity', 'Activity', 'Labels');
@@ -17579,6 +17546,10 @@ INSERT INTO xcart_login_history VALUES (3, 1449100510, 'P', 'login', 'failure', 
 INSERT INTO xcart_login_history VALUES (12, 1449100544, 'P', 'login', 'success', 1730978933);
 INSERT INTO xcart_login_history VALUES (2, 1449102933, 'A', 'login', 'success', 1730978933);
 INSERT INTO xcart_login_history VALUES (21, 1449103135, 'P', 'login', 'success', 1730978933);
+INSERT INTO xcart_login_history VALUES (12, 1449103965, 'P', 'login', 'success', 1730978933);
+INSERT INTO xcart_login_history VALUES (2, 1449104027, 'A', 'login', 'success', 1730978933);
+INSERT INTO xcart_login_history VALUES (2, 1449105208, 'A', 'login', 'success', 1730978933);
+INSERT INTO xcart_login_history VALUES (2, 1449118459, 'A', 'login', 'success', 1730978933);
 
 --
 -- Table structure for table `xcart_manufacturers`
@@ -18911,6 +18882,8 @@ CREATE TABLE `xcart_product_reviews` (
   KEY remote_ip (remote_ip)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
+INSERT INTO xcart_product_reviews VALUES (1, '103.44.164.117', 'MR. yeah', 'you suck', 17612);
+
 --
 -- Table structure for table `xcart_product_rnd_keys`
 --
@@ -19291,7 +19264,7 @@ INSERT INTO xcart_products VALUES (17514, 'SKU17514', 3, '', '0.00', '0.00', 50,
 INSERT INTO xcart_products VALUES (17525, 'SKU17525', 3, '', '0.00', '0.00', 349, 1, 'Y', 1332929308, 42, 1, 0, '0.00', 'N', '', 1, '0.00', '0.00', '0.00', 0, 'N', 'N', 0, 0, '', '', 'N', '', 0, '', '00000');
 INSERT INTO xcart_products VALUES (17536, 'SKU17536', 3, '', '0.00', '0.00', 1000, 0, 'Y', 1332929341, 0, 0, 0, '0.00', 'N', 'N', 0, '0.00', '0.00', '0.00', 0, 'N', 'N', 0, 0, '', '', 'N', 'N', 0, '', '00000');
 INSERT INTO xcart_products VALUES (17548, 'SKU17548', 3, '', '0.00', '0.00', 1000, 0, 'Y', 1332929352, 0, 0, 0, '0.00', 'N', 'N', 0, '0.00', '0.00', '0.00', 0, 'N', 'N', 0, 0, '', '', 'N', 'N', 0, '', '00000');
-INSERT INTO xcart_products VALUES (17551, 'SKU17551', 3, '', '0.00', '0.00', 999, 1, 'Y', 1332929355, 76, 1, 1, '0.00', 'N', '', 1, '0.00', '0.00', '0.00', 0, 'N', 'N', 0, 0, '', '', 'N', '', 0, '', '00000');
+INSERT INTO xcart_products VALUES (17551, 'SKU17551', 3, '', '0.00', '0.00', 999, 1, 'Y', 1332929355, 78, 1, 1, '0.00', 'N', '', 1, '0.00', '0.00', '0.00', 0, 'N', 'N', 0, 0, '', '', 'N', '', 0, '', '00000');
 INSERT INTO xcart_products VALUES (17559, 'SKU17559', 3, '', '0.00', '0.00', 1000, 0, 'Y', 1332929350, 4, 0, 0, '0.00', 'N', 'N', 0, '0.00', '0.00', '0.00', 0, 'N', 'N', 0, 0, '', '', 'N', 'N', 0, '', '00000');
 INSERT INTO xcart_products VALUES (17570, 'SKU17570', 3, '', '0.00', '0.00', 1000, 0, 'Y', 1332929345, 0, 0, 0, '0.00', 'N', 'N', 0, '0.00', '0.00', '0.00', 0, 'N', 'N', 0, 0, '', '', 'N', 'N', 0, '', '00000');
 INSERT INTO xcart_products VALUES (17581, 'SKU17581', 3, '', '0.00', '0.00', 5, 0, 'Y', 1332929312, 4, 0, 0, '0.00', 'N', 'N', 0, '0.00', '0.00', '0.00', 0, 'N', 'N', 0, 0, '', '', 'N', 'N', 0, '', '00000');
@@ -19375,8 +19348,8 @@ INSERT INTO xcart_products VALUES (17604, 'SKU17604', 3, '', '0.00', '0.00', 100
 INSERT INTO xcart_products VALUES (17605, 'SKU17605', 3, '', '0.00', '0.00', 1000, 0, 'Y', 1332929504, 0, 0, 0, '0.00', 'N', 'N', 0, '0.00', '0.00', '0.00', 0, 'N', 'N', 0, 0, '', '', 'N', 'N', 0, '', '00000');
 INSERT INTO xcart_products VALUES (17609, 'SKU17609', 3, '', '0.00', '0.50', 998, 5, 'Y', 1444869361, 9, 0, 0, '0.00', 'Y', 'Y', 1, '0.00', '0.00', '0.00', 10, 'N', 'N', 1, 0, 'nike 01', 'nike 01', 'N', '', 1, 'nike 01', '00000');
 INSERT INTO xcart_products VALUES (17610, 'SKU17610', 12, '', '0.00', '0.00', 1000, 0, 'Y', 1446087777, 1, 0, 0, '0.00', 'Y', 'Y', 1, '0.00', '0.00', '0.00', 10, 'N', 'N', 1, 0, 'nike o', 'nike o', 'N', '', 1, 'nike o', '00000');
-INSERT INTO xcart_products VALUES (17611, 'SKU17611', 12, '', '0.50', '0.00', 998, 3, 'Y', 1446100485, 12, 0, 0, '0.00', 'N', 'Y', 1, '0.50', '0.60', '0.30', 10, 'N', 'N', 0, 0, 'iphone 6s', 'iphone 6s', 'N', '', 1, 'iphone 6s', '00000');
-INSERT INTO xcart_products VALUES (17612, '05548', 21, '', '0.00', '1190.00', 99, 2, 'Y', 1448944756, 19, 1, 0, '10.00', 'Y', 'Y', 1, '0.00', '0.00', '0.00', 10, 'N', 'N', 0, 0, 'mates\'s meta description', 'mates\'s meta keywords', 'Y', 'N', 1, 'mates\'s title tag', '00000');
+INSERT INTO xcart_products VALUES (17611, 'SKU17611', 12, '', '0.50', '0.00', 998, 3, 'Y', 1446100485, 16, 0, 0, '0.00', 'N', 'Y', 1, '0.50', '0.60', '0.30', 10, 'N', 'N', 0, 0, 'iphone 6s', 'iphone 6s', 'N', '', 1, 'iphone 6s', '00000');
+INSERT INTO xcart_products VALUES (17612, '05548', 21, '', '0.00', '1190.00', 99, 2, 'Y', 1448944756, 23, 1, 0, '10.00', 'Y', 'Y', 1, '0.00', '0.00', '0.00', 10, 'N', 'N', 0, 0, 'mates\'s meta description', 'mates\'s meta keywords', 'Y', 'N', 1, 'mates\'s title tag', '00000');
 
 --
 -- Table structure for table `xcart_products_categories`
@@ -20469,7 +20442,7 @@ CREATE TABLE `xcart_referers` (
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
 INSERT INTO xcart_referers VALUES ('http://buttons-for-website.com', 5, 1448926667);
-INSERT INTO xcart_referers VALUES ('http://rankings-analytics.com/try.php?u=http://congcewang.com', 38, 1449083320);
+INSERT INTO xcart_referers VALUES ('http://rankings-analytics.com/try.php?u=http://congcewang.com', 40, 1449115896);
 INSERT INTO xcart_referers VALUES ('http://hundejo.com/', 1, 1448586065);
 INSERT INTO xcart_referers VALUES ('http://sucuri.net', 5, 1448908787);
 INSERT INTO xcart_referers VALUES ('http://www.google.com/images/url', 1, 1448908779);
@@ -20478,6 +20451,7 @@ INSERT INTO xcart_referers VALUES ('http://www.facebook.com/', 2, 1448908786);
 INSERT INTO xcart_referers VALUES ('http://www.google.com/search', 1, 1448942965);
 INSERT INTO xcart_referers VALUES ('http://fast-wordpress-start.com', 1, 1449033625);
 INSERT INTO xcart_referers VALUES ('http://pizza-tycoon.com/', 1, 1449058207);
+INSERT INTO xcart_referers VALUES ('http://whois.domaintools.com/congcewang.com', 1, 1449118365);
 
 --
 -- Table structure for table `xcart_register_field_values`
@@ -20591,9 +20565,14 @@ CREATE TABLE `xcart_session_history` (
   KEY ihx (ip,host,xid)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
-INSERT INTO xcart_session_history VALUES (2637637575, 'congcewang.com', 'dc95d404a3e622f66366ad85d9b0c399', '');
-INSERT INTO xcart_session_history VALUES (624749283, 'congcewang.com', '6376f67322e2479ecd293974a71d283d', '');
-INSERT INTO xcart_session_history VALUES (1730978933, 'congcewang.com', '6376f67322e2479ecd293974a71d283d', '');
+INSERT INTO xcart_session_history VALUES (1730978933, 'congcewang.com', '2a06b9be561d7464274af4926e750715', '');
+INSERT INTO xcart_session_history VALUES (3633385102, 'www.congcewang.com', '3064305b54ac8cc1e03a0a5f6bf19abb', '');
+INSERT INTO xcart_session_history VALUES (3633385102, 'congcewang.com', '3064305b54ac8cc1e03a0a5f6bf19abb', '');
+INSERT INTO xcart_session_history VALUES (3634609390, 'congcewang.com', '65edbfac58924c2f587a3310fde9deb8', '');
+INSERT INTO xcart_session_history VALUES (3634609381, 'congcewang.com', '1b6c770803be6a4a44c0246e405a492a', '');
+INSERT INTO xcart_session_history VALUES (3626424517, 'congcewang.com', '0b0cc0148ad316359f3f4c1e8fc85b66', '');
+INSERT INTO xcart_session_history VALUES (3626424517, 'www.congcewang.com', '0b0cc0148ad316359f3f4c1e8fc85b66', '');
+INSERT INTO xcart_session_history VALUES (2058462395, 'congcewang.com', 'ddd574578366de9ddc9104eb741dcc42', '');
 
 --
 -- Table structure for table `xcart_session_unknown_sid`
@@ -20621,14 +20600,13 @@ CREATE TABLE `xcart_sessions_data` (
   UNIQUE expiry_sid (expiry,sessid)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 
-INSERT INTO xcart_sessions_data VALUES ('c8f4cb6ee2bfa153645cd75917157308', 1449102930, 1449106761, 'a:56:{s:17:\"_saved_session_fg\";s:32:\"4d753232c47ed988e45148dff5fc316c\";s:8:\"is_robot\";s:1:\"N\";s:5:\"robot\";s:0:\"\";s:11:\"editor_mode\";s:6:\"editor\";s:11:\"is_location\";s:1:\"Y\";s:9:\"adaptives\";a:6:{s:14:\"is_first_start\";s:0:\"\";s:7:\"browser\";s:6:\"Chrome\";s:7:\"version\";s:12:\"46.0.2490.86\";s:4:\"hard\";s:4:\"i386\";s:8:\"language\";s:5:\"en-US\";s:8:\"platform\";s:5:\"Win32\";}s:15:\"allowed_surveys\";s:0:\"\";s:22:\"antibot_validation_val\";a:5:{s:13:\"on_contact_us\";a:2:{s:4:\"code\";s:5:\"32828\";s:4:\"used\";s:1:\"N\";}s:8:\"on_login\";a:2:{s:4:\"code\";s:5:\"74875\";s:4:\"used\";s:1:\"N\";}s:10:\"on_reviews\";a:2:{s:4:\"code\";s:5:\"68384\";s:4:\"used\";s:1:\"N\";}s:10:\"on_surveys\";a:2:{s:4:\"code\";s:5:\"26123\";s:4:\"used\";s:1:\"N\";}s:13:\"on_news_panel\";a:2:{s:4:\"code\";s:5:\"62215\";s:4:\"used\";s:1:\"N\";}}s:23:\"offer_products_priority\";a:0:{}s:4:\"cart\";s:0:\"\";s:5:\"login\";s:16:\"646471375@qq.com\";s:10:\"login_type\";s:1:\"A\";s:6:\"logged\";s:0:\"\";s:13:\"export_ranges\";s:0:\"\";s:11:\"top_message\";s:0:\"\";s:16:\"login_antibot_on\";b:0;s:22:\"https_redirect_counter\";i:0;s:24:\"https_redirect_forbidden\";b:0;s:13:\"logged_userid\";s:1:\"2\";s:11:\"identifiers\";a:2:{s:1:\"A\";a:3:{s:6:\"userid\";s:1:\"2\";s:5:\"login\";s:16:\"646471375@qq.com\";s:10:\"login_type\";s:1:\"A\";}s:1:\"P\";a:3:{s:6:\"userid\";s:2:\"21\";s:5:\"login\";s:15:\"wys4cb7@126.com\";s:10:\"login_type\";s:1:\"P\";}}s:17:\"merchant_password\";s:0:\"\";s:16:\"file_upload_data\";s:0:\"\";s:14:\"remember_login\";s:16:\"646471375@qq.com\";s:13:\"remember_data\";s:0:\"\";s:14:\"_remember_vars\";s:0:\"\";s:16:\"last_working_url\";a:2:{s:1:\"A\";s:43:\"http://congcewang.com/admin/editor_mode.php\";s:1:\"P\";s:39:\"http://congcewang.com/provider/home.php\";}s:7:\"old_lng\";s:0:\"\";s:20:\"is_switched_language\";s:0:\"\";s:16:\"current_language\";s:2:\"zh\";s:23:\"require_change_password\";s:0:\"\";s:24:\"stored_navigation_script\";s:8:\"home.php\";s:8:\"username\";s:15:\"wys4cb7@126.com\";s:11:\"logout_user\";b:0;s:19:\"previous_login_date\";s:10:\"1449100236\";s:13:\"login_attempt\";s:0:\"\";s:19:\"intershipper_recalc\";s:1:\"Y\";s:11:\"antibot_err\";s:0:\"\";s:14:\"login_redirect\";s:0:\"\";s:18:\"anonymous_userinfo\";a:0:{}s:7:\"bf_mode\";s:0:\"\";s:21:\"hide_security_warning\";s:0:\"\";s:10:\"flc_forced\";b:0;s:18:\"pinterest_endpoint\";s:42:\"//d3io1k5o0zdpqr.cloudfront.net/pinit.html\";s:19:\"comparison_list_ids\";s:0:\"\";s:26:\"session_failed_transaction\";s:0:\"\";s:16:\"add_to_cart_time\";s:0:\"\";s:17:\"always_allow_shop\";b:0;s:11:\"search_data\";a:1:{s:8:\"products\";a:7:{s:12:\"add_page_url\";s:11:\"&featured=Y\";s:7:\"forsale\";s:1:\"Y\";s:14:\"sort_condition\";s:37:\"xcart_featured_products.product_order\";s:1:\"_\";a:1:{s:11:\"inner_joins\";a:1:{s:17:\"featured_products\";a:1:{s:2:\"on\";s:139:\"xcart_products.productid=xcart_featured_products.productid AND xcart_featured_products.avail=\'Y\' AND xcart_featured_products.categoryid=\'0\'\";}}}s:10:\"sort_field\";s:7:\"orderby\";s:14:\"sort_direction\";i:0;s:13:\"manufacturers\";a:0:{}}}s:4:\"wlid\";s:0:\"\";s:15:\"referer_session\";s:22:\"http://congcewang.com/\";s:14:\"filled_surveys\";s:0:\"\";s:18:\"new_offers_message\";s:0:\"\";s:25:\"customer_available_offers\";a:0:{}s:16:\"rviewed_products\";s:0:\"\";s:22:\"store_objects_per_page\";i:0;s:27:\"show_seller_address_warning\";b:1;}');
-INSERT INTO xcart_sessions_data VALUES ('eee496a0fe4f3ec3c416e87b2e5846c0', 1449102119, 1449105719, 'a:41:{s:17:\"_saved_session_fg\";s:32:\"d8535ad6fd8ced25f6f25197a820deef\";s:14:\"is_new_session\";b:1;s:8:\"is_robot\";s:1:\"N\";s:5:\"robot\";s:0:\"\";s:11:\"editor_mode\";s:0:\"\";s:11:\"is_location\";s:0:\"\";s:9:\"adaptives\";a:1:{s:14:\"is_first_start\";s:1:\"Y\";}s:10:\"flc_forced\";b:0;s:18:\"pinterest_endpoint\";s:42:\"//d3io1k5o0zdpqr.cloudfront.net/pinit.html\";s:15:\"allowed_surveys\";s:0:\"\";s:22:\"antibot_validation_val\";a:5:{s:13:\"on_contact_us\";a:2:{s:4:\"code\";s:5:\"61159\";s:4:\"used\";s:1:\"N\";}s:8:\"on_login\";a:2:{s:4:\"code\";s:5:\"27546\";s:4:\"used\";s:1:\"N\";}s:10:\"on_reviews\";a:2:{s:4:\"code\";s:5:\"74323\";s:4:\"used\";s:1:\"N\";}s:10:\"on_surveys\";a:2:{s:4:\"code\";s:5:\"56533\";s:4:\"used\";s:1:\"N\";}s:13:\"on_news_panel\";a:2:{s:4:\"code\";s:5:\"33768\";s:4:\"used\";s:1:\"N\";}}s:23:\"offer_products_priority\";a:0:{}s:4:\"cart\";s:0:\"\";s:19:\"comparison_list_ids\";s:0:\"\";s:11:\"logout_user\";s:0:\"\";s:26:\"session_failed_transaction\";s:0:\"\";s:16:\"add_to_cart_time\";s:0:\"\";s:17:\"always_allow_shop\";b:0;s:11:\"search_data\";a:2:{s:10:\"start_date\";i:1449036000;s:8:\"end_date\";i:1480658400;}s:22:\"https_redirect_counter\";i:0;s:24:\"https_redirect_forbidden\";b:0;s:4:\"wlid\";s:0:\"\";s:11:\"top_message\";s:0:\"\";s:15:\"referer_session\";b:0;s:5:\"login\";s:0:\"\";s:10:\"login_type\";s:0:\"\";s:13:\"logged_userid\";i:0;s:11:\"identifiers\";a:0:{}s:14:\"remember_login\";b:0;s:13:\"remember_data\";s:0:\"\";s:14:\"_remember_vars\";s:0:\"\";s:7:\"old_lng\";s:0:\"\";s:20:\"is_switched_language\";s:0:\"\";s:14:\"filled_surveys\";s:0:\"\";s:18:\"new_offers_message\";s:0:\"\";s:25:\"customer_available_offers\";a:0:{}s:16:\"rviewed_products\";s:0:\"\";s:23:\"require_change_password\";s:0:\"\";s:16:\"login_antibot_on\";s:0:\"\";s:13:\"access_status\";a:0:{}s:24:\"stored_navigation_script\";s:0:\"\";}');
-INSERT INTO xcart_sessions_data VALUES ('dc95d404a3e622f66366ad85d9b0c399', 1449102128, 1449105728, 'a:40:{s:17:\"_saved_session_fg\";s:32:\"d8535ad6fd8ced25f6f25197a820deef\";s:14:\"is_new_session\";b:1;s:8:\"is_robot\";s:1:\"N\";s:5:\"robot\";s:0:\"\";s:11:\"editor_mode\";s:0:\"\";s:11:\"is_location\";s:0:\"\";s:9:\"adaptives\";a:1:{s:14:\"is_first_start\";s:1:\"Y\";}s:10:\"flc_forced\";b:0;s:18:\"pinterest_endpoint\";s:42:\"//d3io1k5o0zdpqr.cloudfront.net/pinit.html\";s:15:\"allowed_surveys\";s:0:\"\";s:22:\"antibot_validation_val\";a:5:{s:13:\"on_contact_us\";a:2:{s:4:\"code\";s:5:\"88952\";s:4:\"used\";s:1:\"N\";}s:8:\"on_login\";a:2:{s:4:\"code\";s:5:\"49612\";s:4:\"used\";s:1:\"N\";}s:10:\"on_reviews\";a:2:{s:4:\"code\";s:5:\"41936\";s:4:\"used\";s:1:\"N\";}s:10:\"on_surveys\";a:2:{s:4:\"code\";s:5:\"68712\";s:4:\"used\";s:1:\"N\";}s:13:\"on_news_panel\";a:2:{s:4:\"code\";s:5:\"52466\";s:4:\"used\";s:1:\"N\";}}s:23:\"offer_products_priority\";a:0:{}s:4:\"cart\";s:0:\"\";s:19:\"comparison_list_ids\";s:0:\"\";s:11:\"logout_user\";s:0:\"\";s:26:\"session_failed_transaction\";s:0:\"\";s:16:\"add_to_cart_time\";s:0:\"\";s:17:\"always_allow_shop\";b:0;s:11:\"search_data\";s:0:\"\";s:22:\"https_redirect_counter\";i:0;s:24:\"https_redirect_forbidden\";b:0;s:4:\"wlid\";s:0:\"\";s:11:\"top_message\";s:0:\"\";s:15:\"referer_session\";b:0;s:5:\"login\";s:0:\"\";s:10:\"login_type\";s:0:\"\";s:13:\"logged_userid\";i:0;s:11:\"identifiers\";a:0:{}s:14:\"remember_login\";b:0;s:13:\"remember_data\";s:0:\"\";s:14:\"_remember_vars\";s:0:\"\";s:7:\"old_lng\";s:0:\"\";s:20:\"is_switched_language\";s:0:\"\";s:14:\"filled_surveys\";s:0:\"\";s:18:\"new_offers_message\";s:0:\"\";s:25:\"customer_available_offers\";a:0:{}s:16:\"rviewed_products\";s:0:\"\";s:23:\"require_change_password\";s:0:\"\";s:16:\"login_antibot_on\";s:0:\"\";s:24:\"stored_navigation_script\";s:0:\"\";}');
-INSERT INTO xcart_sessions_data VALUES ('f763547f4a739bd2af8f022594f91d4e', 1449099659, 1449103780, 'a:53:{s:17:\"_saved_session_fg\";s:32:\"f78c7e340d72eb1bd7643317460df670\";s:8:\"is_robot\";s:1:\"N\";s:5:\"robot\";s:0:\"\";s:11:\"editor_mode\";s:0:\"\";s:11:\"is_location\";s:0:\"\";s:9:\"adaptives\";a:13:{s:14:\"is_first_start\";s:0:\"\";s:4:\"isJS\";s:1:\"Y\";s:5:\"isDOM\";s:1:\"Y\";s:8:\"isStrict\";s:1:\"Y\";s:6:\"isJava\";s:0:\"\";s:7:\"browser\";s:6:\"Chrome\";s:7:\"version\";s:12:\"47.0.2526.73\";s:8:\"platform\";s:5:\"Win32\";s:8:\"isCookie\";s:1:\"Y\";s:8:\"screen_x\";s:4:\"1920\";s:8:\"screen_y\";s:4:\"1080\";s:4:\"hard\";s:4:\"i386\";s:8:\"language\";s:5:\"en-US\";}s:10:\"flc_forced\";b:0;s:18:\"pinterest_endpoint\";s:42:\"//d3io1k5o0zdpqr.cloudfront.net/pinit.html\";s:15:\"allowed_surveys\";s:0:\"\";s:22:\"antibot_validation_val\";a:5:{s:13:\"on_contact_us\";a:2:{s:4:\"code\";s:5:\"85556\";s:4:\"used\";s:1:\"N\";}s:8:\"on_login\";a:2:{s:4:\"code\";s:5:\"25458\";s:4:\"used\";s:1:\"N\";}s:10:\"on_reviews\";a:2:{s:4:\"code\";s:5:\"24385\";s:4:\"used\";s:1:\"N\";}s:10:\"on_surveys\";a:2:{s:4:\"code\";s:5:\"65519\";s:4:\"used\";s:1:\"N\";}s:13:\"on_news_panel\";a:2:{s:4:\"code\";s:5:\"66342\";s:4:\"used\";s:1:\"N\";}}s:23:\"offer_products_priority\";a:0:{}s:4:\"cart\";s:0:\"\";s:19:\"comparison_list_ids\";s:0:\"\";s:11:\"logout_user\";s:0:\"\";s:26:\"session_failed_transaction\";s:0:\"\";s:16:\"add_to_cart_time\";s:0:\"\";s:17:\"always_allow_shop\";b:0;s:11:\"search_data\";a:1:{s:8:\"products\";a:7:{s:12:\"add_page_url\";s:11:\"&featured=Y\";s:7:\"forsale\";s:1:\"Y\";s:14:\"sort_condition\";s:37:\"xcart_featured_products.product_order\";s:1:\"_\";a:1:{s:11:\"inner_joins\";a:1:{s:17:\"featured_products\";a:1:{s:2:\"on\";s:139:\"xcart_products.productid=xcart_featured_products.productid AND xcart_featured_products.avail=\'Y\' AND xcart_featured_products.categoryid=\'0\'\";}}}s:10:\"sort_field\";s:7:\"orderby\";s:14:\"sort_direction\";i:0;s:13:\"manufacturers\";a:0:{}}}s:22:\"https_redirect_counter\";i:0;s:24:\"https_redirect_forbidden\";b:0;s:4:\"wlid\";s:0:\"\";s:11:\"top_message\";s:0:\"\";s:15:\"referer_session\";s:22:\"http://congcewang.com/\";s:5:\"login\";s:0:\"\";s:10:\"login_type\";s:0:\"\";s:13:\"logged_userid\";i:0;s:11:\"identifiers\";a:0:{}s:14:\"remember_login\";b:0;s:13:\"remember_data\";s:0:\"\";s:14:\"_remember_vars\";s:0:\"\";s:7:\"old_lng\";s:0:\"\";s:20:\"is_switched_language\";s:0:\"\";s:14:\"filled_surveys\";s:0:\"\";s:18:\"new_offers_message\";s:0:\"\";s:25:\"customer_available_offers\";a:0:{}s:16:\"rviewed_products\";s:0:\"\";s:23:\"require_change_password\";s:0:\"\";s:16:\"login_antibot_on\";s:0:\"\";s:24:\"stored_navigation_script\";s:8:\"home.php\";s:22:\"store_objects_per_page\";i:0;s:18:\"intershipper_rates\";s:0:\"\";s:19:\"intershipper_recalc\";s:1:\"Y\";s:15:\"current_carrier\";s:3:\"UPS\";s:14:\"order_secureid\";s:0:\"\";s:13:\"is_sns_action\";s:0:\"\";s:21:\"dhl_ext_country_store\";s:0:\"\";s:17:\"ga_track_commerce\";s:0:\"\";s:20:\"initial_state_orders\";a:0:{}s:24:\"initial_state_show_notif\";s:1:\"Y\";s:9:\"reg_error\";a:0:{}s:22:\"cart_locked_by_process\";s:0:\"\";s:18:\"anonymous_userinfo\";a:0:{}s:12:\"wlid_eventid\";s:0:\"\";}');
-INSERT INTO xcart_sessions_data VALUES ('4b8349e002278707b321f2bae834a5cd', 1449100190, 1449103861, 'a:56:{s:17:\"_saved_session_fg\";s:32:\"4d753232c47ed988e45148dff5fc316c\";s:8:\"is_robot\";s:1:\"N\";s:5:\"robot\";s:0:\"\";s:11:\"editor_mode\";s:0:\"\";s:11:\"is_location\";s:1:\"Y\";s:9:\"adaptives\";a:6:{s:14:\"is_first_start\";s:0:\"\";s:7:\"browser\";s:6:\"Chrome\";s:7:\"version\";s:12:\"46.0.2490.86\";s:4:\"hard\";s:4:\"i386\";s:8:\"language\";s:5:\"en-US\";s:8:\"platform\";s:5:\"Win32\";}s:10:\"flc_forced\";b:0;s:18:\"pinterest_endpoint\";s:42:\"//d3io1k5o0zdpqr.cloudfront.net/pinit.html\";s:15:\"allowed_surveys\";s:0:\"\";s:22:\"antibot_validation_val\";a:5:{s:13:\"on_contact_us\";a:2:{s:4:\"code\";s:5:\"57961\";s:4:\"used\";s:1:\"N\";}s:8:\"on_login\";a:2:{s:4:\"code\";s:5:\"28826\";s:4:\"used\";s:1:\"N\";}s:10:\"on_reviews\";a:2:{s:4:\"code\";s:5:\"16961\";s:4:\"used\";s:1:\"N\";}s:10:\"on_surveys\";a:2:{s:4:\"code\";s:5:\"36525\";s:4:\"used\";s:1:\"N\";}s:13:\"on_news_panel\";a:2:{s:4:\"code\";s:5:\"29273\";s:4:\"used\";s:1:\"N\";}}s:23:\"offer_products_priority\";a:0:{}s:4:\"cart\";s:0:\"\";s:19:\"comparison_list_ids\";s:0:\"\";s:11:\"logout_user\";b:0;s:26:\"session_failed_transaction\";s:0:\"\";s:16:\"add_to_cart_time\";s:0:\"\";s:17:\"always_allow_shop\";b:0;s:11:\"search_data\";a:1:{s:8:\"products\";a:7:{s:12:\"add_page_url\";s:11:\"&featured=Y\";s:7:\"forsale\";s:1:\"Y\";s:14:\"sort_condition\";s:37:\"xcart_featured_products.product_order\";s:1:\"_\";a:1:{s:11:\"inner_joins\";a:1:{s:17:\"featured_products\";a:1:{s:2:\"on\";s:139:\"xcart_products.productid=xcart_featured_products.productid AND xcart_featured_products.avail=\'Y\' AND xcart_featured_products.categoryid=\'0\'\";}}}s:10:\"sort_field\";s:7:\"orderby\";s:14:\"sort_direction\";i:0;s:13:\"manufacturers\";a:0:{}}}s:22:\"https_redirect_counter\";i:0;s:24:\"https_redirect_forbidden\";b:0;s:4:\"wlid\";s:0:\"\";s:11:\"top_message\";s:0:\"\";s:15:\"referer_session\";s:22:\"http://congcewang.com/\";s:5:\"login\";s:16:\"646471375@qq.com\";s:10:\"login_type\";s:1:\"A\";s:13:\"logged_userid\";s:1:\"2\";s:11:\"identifiers\";a:2:{s:1:\"A\";a:3:{s:6:\"userid\";s:1:\"2\";s:5:\"login\";s:16:\"646471375@qq.com\";s:10:\"login_type\";s:1:\"A\";}s:1:\"P\";a:3:{s:6:\"userid\";s:2:\"21\";s:5:\"login\";s:15:\"wys4cb7@126.com\";s:10:\"login_type\";s:1:\"P\";}}s:14:\"remember_login\";s:16:\"646471375@qq.com\";s:13:\"remember_data\";s:0:\"\";s:14:\"_remember_vars\";s:0:\"\";s:7:\"old_lng\";s:0:\"\";s:20:\"is_switched_language\";s:0:\"\";s:14:\"filled_surveys\";s:0:\"\";s:18:\"new_offers_message\";s:0:\"\";s:25:\"customer_available_offers\";a:0:{}s:16:\"rviewed_products\";s:0:\"\";s:23:\"require_change_password\";s:0:\"\";s:16:\"login_antibot_on\";b:0;s:22:\"store_objects_per_page\";i:0;s:24:\"stored_navigation_script\";s:8:\"home.php\";s:6:\"logged\";s:0:\"\";s:13:\"export_ranges\";s:0:\"\";s:17:\"merchant_password\";s:0:\"\";s:16:\"file_upload_data\";s:0:\"\";s:16:\"last_working_url\";a:2:{s:1:\"A\";s:43:\"http://congcewang.com/admin/editor_mode.php\";s:1:\"P\";s:47:\"http://congcewang.com/provider/extra_fields.php\";}s:16:\"current_language\";s:2:\"zh\";s:8:\"username\";s:15:\"wys4cb7@126.com\";s:19:\"previous_login_date\";s:10:\"1449029333\";s:13:\"login_attempt\";s:0:\"\";s:19:\"intershipper_recalc\";s:1:\"Y\";s:11:\"antibot_err\";s:0:\"\";s:14:\"login_redirect\";s:0:\"\";s:18:\"anonymous_userinfo\";a:0:{}s:7:\"bf_mode\";s:0:\"\";s:21:\"hide_security_warning\";s:0:\"\";s:27:\"show_seller_address_warning\";b:1;}');
-INSERT INTO xcart_sessions_data VALUES ('fbaaff8347253423ab4be1a57f87a1c7', 1449100196, 1449103796, 'a:10:{s:17:\"_saved_session_fg\";s:32:\"4d753232c47ed988e45148dff5fc316c\";s:14:\"is_new_session\";b:1;s:8:\"is_robot\";s:1:\"N\";s:5:\"robot\";s:0:\"\";s:10:\"flc_forced\";b:0;s:15:\"allowed_surveys\";s:0:\"\";s:23:\"offer_products_priority\";a:0:{}s:4:\"cart\";s:0:\"\";s:11:\"is_location\";s:0:\"\";s:9:\"adaptives\";a:11:{s:4:\"isJS\";s:1:\"Y\";s:5:\"isDOM\";s:1:\"Y\";s:8:\"isStrict\";s:1:\"Y\";s:6:\"isJava\";s:1:\"Y\";s:7:\"browser\";s:6:\"Chrome\";s:7:\"version\";s:12:\"46.0.2490.86\";s:8:\"platform\";s:5:\"Win32\";s:8:\"isCookie\";s:1:\"Y\";s:8:\"screen_x\";s:4:\"1600\";s:8:\"screen_y\";s:3:\"900\";s:14:\"is_first_start\";s:0:\"\";}}');
-INSERT INTO xcart_sessions_data VALUES ('6376f67322e2479ecd293974a71d283d', 1449100305, 1449106903, 'a:66:{s:17:\"_saved_session_fg\";s:32:\"e153de44f740ecaa9a3385ae515a2bd7\";s:8:\"is_robot\";s:1:\"N\";s:5:\"robot\";s:0:\"\";s:11:\"editor_mode\";s:0:\"\";s:11:\"is_location\";s:1:\"Y\";s:9:\"adaptives\";a:13:{s:14:\"is_first_start\";s:0:\"\";s:4:\"isJS\";s:1:\"Y\";s:5:\"isDOM\";s:1:\"Y\";s:8:\"isStrict\";s:1:\"Y\";s:6:\"isJava\";s:0:\"\";s:7:\"browser\";s:6:\"Chrome\";s:7:\"version\";s:12:\"47.0.2526.73\";s:8:\"platform\";s:6:\"MacPPC\";s:8:\"isCookie\";s:1:\"Y\";s:8:\"screen_x\";s:4:\"2560\";s:8:\"screen_y\";s:4:\"1440\";s:4:\"hard\";s:4:\"i386\";s:8:\"language\";s:5:\"en-US\";}s:10:\"flc_forced\";b:0;s:18:\"pinterest_endpoint\";s:42:\"//d3io1k5o0zdpqr.cloudfront.net/pinit.html\";s:15:\"allowed_surveys\";s:0:\"\";s:22:\"antibot_validation_val\";a:5:{s:13:\"on_contact_us\";a:2:{s:4:\"code\";s:5:\"89845\";s:4:\"used\";s:1:\"N\";}s:8:\"on_login\";a:2:{s:4:\"code\";s:5:\"27784\";s:4:\"used\";s:1:\"N\";}s:10:\"on_reviews\";a:2:{s:4:\"code\";s:5:\"66394\";s:4:\"used\";s:1:\"N\";}s:10:\"on_surveys\";a:2:{s:4:\"code\";s:5:\"87159\";s:4:\"used\";s:1:\"N\";}s:13:\"on_news_panel\";a:2:{s:4:\"code\";s:5:\"37868\";s:4:\"used\";s:1:\"N\";}}s:23:\"offer_products_priority\";a:0:{}s:4:\"cart\";s:0:\"\";s:19:\"comparison_list_ids\";s:0:\"\";s:11:\"logout_user\";b:0;s:26:\"session_failed_transaction\";s:0:\"\";s:16:\"add_to_cart_time\";s:0:\"\";s:17:\"always_allow_shop\";b:0;s:11:\"search_data\";a:2:{s:8:\"products\";a:15:{s:8:\"by_title\";s:1:\"Y\";s:8:\"by_descr\";s:1:\"Y\";s:6:\"by_sku\";s:1:\"Y\";s:23:\"search_in_subcategories\";s:1:\"Y\";s:9:\"including\";s:3:\"all\";s:9:\"substring\";s:9:\"iphone 6s\";s:12:\"by_fulldescr\";s:1:\"Y\";s:13:\"by_shortdescr\";s:1:\"Y\";s:21:\"need_advanced_options\";b:0;s:10:\"sort_field\";s:7:\"orderby\";s:14:\"sort_direction\";i:0;s:14:\"category_extra\";s:1:\"Y\";s:13:\"category_main\";s:1:\"Y\";s:4:\"page\";i:1;s:13:\"manufacturers\";a:0:{}}s:5:\"users\";a:16:{s:9:\"substring\";s:0:\"\";s:11:\"by_username\";s:2:\"on\";s:12:\"by_firstname\";s:2:\"on\";s:11:\"by_lastname\";s:2:\"on\";s:8:\"by_email\";s:2:\"on\";s:10:\"by_company\";s:2:\"on\";s:12:\"membershipid\";s:0:\"\";s:12:\"address_type\";s:0:\"\";s:3:\"url\";s:0:\"\";s:10:\"orders_min\";s:0:\"\";s:10:\"orders_max\";s:0:\"\";s:21:\"need_advanced_options\";b:0;s:10:\"sort_field\";s:10:\"last_login\";s:14:\"sort_direction\";i:1;s:10:\"start_date\";i:1449036000;s:8:\"end_date\";i:1449122399;}}s:22:\"https_redirect_counter\";i:0;s:24:\"https_redirect_forbidden\";b:0;s:4:\"wlid\";s:0:\"\";s:11:\"top_message\";s:0:\"\";s:15:\"referer_session\";s:22:\"http://congcewang.com/\";s:5:\"login\";s:16:\"646471375@qq.com\";s:10:\"login_type\";s:1:\"A\";s:13:\"logged_userid\";s:1:\"2\";s:11:\"identifiers\";a:2:{s:1:\"A\";a:3:{s:6:\"userid\";s:1:\"2\";s:5:\"login\";s:16:\"646471375@qq.com\";s:10:\"login_type\";s:1:\"A\";}s:1:\"P\";a:3:{s:6:\"userid\";s:2:\"12\";s:5:\"login\";s:22:\"yestalent123@gmail.com\";s:10:\"login_type\";s:1:\"P\";}}s:14:\"remember_login\";s:22:\"yestalent123@gmail.com\";s:13:\"remember_data\";s:0:\"\";s:14:\"_remember_vars\";s:0:\"\";s:7:\"old_lng\";s:0:\"\";s:20:\"is_switched_language\";s:1:\"Y\";s:14:\"filled_surveys\";s:0:\"\";s:18:\"new_offers_message\";s:0:\"\";s:25:\"customer_available_offers\";a:0:{}s:16:\"rviewed_products\";a:2:{i:17611;i:1449102880;i:17612;i:1449102377;}s:23:\"require_change_password\";s:0:\"\";s:16:\"login_antibot_on\";b:0;s:24:\"stored_navigation_script\";s:22:\"search.php?mode=search\";s:22:\"store_objects_per_page\";i:0;s:6:\"logged\";s:0:\"\";s:13:\"export_ranges\";s:0:\"\";s:16:\"file_upload_data\";s:0:\"\";s:16:\"last_working_url\";a:2:{s:1:\"P\";s:56:\"http://congcewang.com/provider/shipping_rates.php?type=R\";s:1:\"A\";s:41:\"http://congcewang.com/admin/db_backup.php\";}s:16:\"current_language\";s:2:\"zh\";s:27:\"show_seller_address_warning\";b:1;s:8:\"username\";s:22:\"yestalent123@gmail.com\";s:19:\"previous_login_date\";s:10:\"1449098694\";s:13:\"login_attempt\";s:0:\"\";s:19:\"intershipper_recalc\";s:1:\"Y\";s:17:\"merchant_password\";s:0:\"\";s:11:\"antibot_err\";s:0:\"\";s:14:\"login_redirect\";s:0:\"\";s:18:\"anonymous_userinfo\";a:0:{}s:7:\"bf_mode\";s:0:\"\";s:21:\"hide_security_warning\";s:0:\"\";s:8:\"av_error\";b:0;s:18:\"saved_address_book\";a:0:{}s:14:\"saved_userinfo\";s:0:\"\";s:9:\"reg_error\";a:0:{}s:22:\"users_search_condition\";s:0:\"\";s:21:\"product_modified_data\";s:0:\"\";s:25:\"product_lng_modified_data\";s:0:\"\";s:19:\"send_to_friend_info\";s:0:\"\";s:18:\"review_store_place\";s:0:\"\";s:13:\"backup_errors\";s:0:\"\";}');
-INSERT INTO xcart_sessions_data VALUES ('f38f69c112c399f2f9559f7d35c799e5', 1449102109, 1449105709, 'a:47:{s:17:\"_saved_session_fg\";s:32:\"d8535ad6fd8ced25f6f25197a820deef\";s:14:\"is_new_session\";b:1;s:8:\"is_robot\";s:1:\"N\";s:5:\"robot\";s:0:\"\";s:11:\"editor_mode\";s:0:\"\";s:11:\"is_location\";s:0:\"\";s:9:\"adaptives\";a:1:{s:14:\"is_first_start\";s:1:\"Y\";}s:10:\"flc_forced\";b:0;s:18:\"pinterest_endpoint\";s:42:\"//d3io1k5o0zdpqr.cloudfront.net/pinit.html\";s:15:\"allowed_surveys\";s:0:\"\";s:22:\"antibot_validation_val\";a:5:{s:13:\"on_contact_us\";a:2:{s:4:\"code\";s:5:\"13441\";s:4:\"used\";s:1:\"N\";}s:8:\"on_login\";a:2:{s:4:\"code\";s:5:\"13291\";s:4:\"used\";s:1:\"N\";}s:10:\"on_reviews\";a:2:{s:4:\"code\";s:5:\"39997\";s:4:\"used\";s:1:\"N\";}s:10:\"on_surveys\";a:2:{s:4:\"code\";s:5:\"43559\";s:4:\"used\";s:1:\"N\";}s:13:\"on_news_panel\";a:2:{s:4:\"code\";s:5:\"49467\";s:4:\"used\";s:1:\"N\";}}s:23:\"offer_products_priority\";a:0:{}s:4:\"cart\";s:0:\"\";s:19:\"comparison_list_ids\";s:0:\"\";s:11:\"logout_user\";s:0:\"\";s:26:\"session_failed_transaction\";s:0:\"\";s:16:\"add_to_cart_time\";s:0:\"\";s:17:\"always_allow_shop\";b:0;s:11:\"search_data\";s:0:\"\";s:22:\"https_redirect_counter\";i:0;s:24:\"https_redirect_forbidden\";b:0;s:4:\"wlid\";s:0:\"\";s:11:\"top_message\";s:0:\"\";s:15:\"referer_session\";b:0;s:5:\"login\";s:0:\"\";s:10:\"login_type\";s:0:\"\";s:13:\"logged_userid\";i:0;s:11:\"identifiers\";a:0:{}s:14:\"remember_login\";b:0;s:13:\"remember_data\";s:0:\"\";s:14:\"_remember_vars\";s:0:\"\";s:7:\"old_lng\";s:0:\"\";s:20:\"is_switched_language\";s:0:\"\";s:14:\"filled_surveys\";s:0:\"\";s:18:\"new_offers_message\";s:0:\"\";s:25:\"customer_available_offers\";a:0:{}s:16:\"rviewed_products\";s:0:\"\";s:23:\"require_change_password\";s:0:\"\";s:16:\"login_antibot_on\";s:0:\"\";s:8:\"username\";s:0:\"\";s:19:\"previous_login_date\";s:0:\"\";s:13:\"login_attempt\";s:0:\"\";s:19:\"intershipper_recalc\";s:0:\"\";s:17:\"merchant_password\";s:0:\"\";s:11:\"antibot_err\";s:0:\"\";s:14:\"login_redirect\";s:0:\"\";s:24:\"stored_navigation_script\";s:0:\"\";}');
+INSERT INTO xcart_sessions_data VALUES ('ddd574578366de9ddc9104eb741dcc42', 1449115896, 1449119496, 'a:41:{s:17:\"_saved_session_fg\";s:32:\"559b7dac01fe1637ac7cdc444c695407\";s:14:\"is_new_session\";b:1;s:8:\"is_robot\";s:1:\"N\";s:5:\"robot\";s:0:\"\";s:11:\"editor_mode\";s:0:\"\";s:11:\"is_location\";s:0:\"\";s:9:\"adaptives\";a:1:{s:14:\"is_first_start\";s:1:\"Y\";}s:10:\"flc_forced\";b:0;s:18:\"pinterest_endpoint\";s:42:\"//d3io1k5o0zdpqr.cloudfront.net/pinit.html\";s:15:\"allowed_surveys\";s:0:\"\";s:22:\"antibot_validation_val\";a:5:{s:13:\"on_contact_us\";a:2:{s:4:\"code\";s:5:\"71444\";s:4:\"used\";s:1:\"N\";}s:8:\"on_login\";a:2:{s:4:\"code\";s:5:\"97839\";s:4:\"used\";s:1:\"N\";}s:10:\"on_reviews\";a:2:{s:4:\"code\";s:5:\"29139\";s:4:\"used\";s:1:\"N\";}s:10:\"on_surveys\";a:2:{s:4:\"code\";s:5:\"75192\";s:4:\"used\";s:1:\"N\";}s:13:\"on_news_panel\";a:2:{s:4:\"code\";s:5:\"17876\";s:4:\"used\";s:1:\"N\";}}s:23:\"offer_products_priority\";a:0:{}s:4:\"cart\";s:0:\"\";s:19:\"comparison_list_ids\";s:0:\"\";s:11:\"logout_user\";s:0:\"\";s:26:\"session_failed_transaction\";s:0:\"\";s:16:\"add_to_cart_time\";s:0:\"\";s:17:\"always_allow_shop\";b:0;s:11:\"search_data\";a:1:{s:8:\"products\";a:7:{s:12:\"add_page_url\";s:11:\"&featured=Y\";s:7:\"forsale\";s:1:\"Y\";s:14:\"sort_condition\";s:37:\"xcart_featured_products.product_order\";s:1:\"_\";a:1:{s:11:\"inner_joins\";a:1:{s:17:\"featured_products\";a:1:{s:2:\"on\";s:139:\"xcart_products.productid=xcart_featured_products.productid AND xcart_featured_products.avail=\'Y\' AND xcart_featured_products.categoryid=\'0\'\";}}}s:10:\"sort_field\";s:7:\"orderby\";s:14:\"sort_direction\";i:0;s:13:\"manufacturers\";a:0:{}}}s:22:\"https_redirect_counter\";i:0;s:24:\"https_redirect_forbidden\";b:0;s:4:\"wlid\";s:0:\"\";s:11:\"top_message\";s:0:\"\";s:15:\"referer_session\";s:61:\"http://rankings-analytics.com/try.php?u=http://congcewang.com\";s:5:\"login\";s:0:\"\";s:10:\"login_type\";s:0:\"\";s:13:\"logged_userid\";i:0;s:11:\"identifiers\";a:0:{}s:14:\"remember_login\";b:0;s:13:\"remember_data\";s:0:\"\";s:14:\"_remember_vars\";s:0:\"\";s:7:\"old_lng\";s:0:\"\";s:20:\"is_switched_language\";s:0:\"\";s:14:\"filled_surveys\";s:0:\"\";s:18:\"new_offers_message\";s:0:\"\";s:25:\"customer_available_offers\";a:0:{}s:16:\"rviewed_products\";s:0:\"\";s:23:\"require_change_password\";s:0:\"\";s:16:\"login_antibot_on\";s:0:\"\";s:22:\"store_objects_per_page\";i:0;s:24:\"stored_navigation_script\";s:8:\"home.php\";}');
+INSERT INTO xcart_sessions_data VALUES ('65edbfac58924c2f587a3310fde9deb8', 1449115927, 1449119527, 'a:41:{s:17:\"_saved_session_fg\";s:32:\"dbbaf6ebb0240fdf90c82a951e227dd1\";s:14:\"is_new_session\";b:1;s:8:\"is_robot\";s:1:\"N\";s:5:\"robot\";s:0:\"\";s:11:\"editor_mode\";s:0:\"\";s:11:\"is_location\";s:0:\"\";s:9:\"adaptives\";a:1:{s:14:\"is_first_start\";s:1:\"Y\";}s:10:\"flc_forced\";b:0;s:18:\"pinterest_endpoint\";s:42:\"//d3io1k5o0zdpqr.cloudfront.net/pinit.html\";s:15:\"allowed_surveys\";s:0:\"\";s:22:\"antibot_validation_val\";a:5:{s:13:\"on_contact_us\";a:2:{s:4:\"code\";s:5:\"91424\";s:4:\"used\";s:1:\"N\";}s:8:\"on_login\";a:2:{s:4:\"code\";s:5:\"85598\";s:4:\"used\";s:1:\"N\";}s:10:\"on_reviews\";a:2:{s:4:\"code\";s:5:\"52739\";s:4:\"used\";s:1:\"N\";}s:10:\"on_surveys\";a:2:{s:4:\"code\";s:5:\"71264\";s:4:\"used\";s:1:\"N\";}s:13:\"on_news_panel\";a:2:{s:4:\"code\";s:5:\"68592\";s:4:\"used\";s:1:\"N\";}}s:23:\"offer_products_priority\";a:0:{}s:4:\"cart\";s:0:\"\";s:19:\"comparison_list_ids\";s:0:\"\";s:11:\"logout_user\";s:0:\"\";s:26:\"session_failed_transaction\";s:0:\"\";s:16:\"add_to_cart_time\";s:0:\"\";s:17:\"always_allow_shop\";b:0;s:11:\"search_data\";a:1:{s:8:\"products\";a:7:{s:12:\"add_page_url\";s:11:\"&featured=Y\";s:7:\"forsale\";s:1:\"Y\";s:14:\"sort_condition\";s:37:\"xcart_featured_products.product_order\";s:1:\"_\";a:1:{s:11:\"inner_joins\";a:1:{s:17:\"featured_products\";a:1:{s:2:\"on\";s:139:\"xcart_products.productid=xcart_featured_products.productid AND xcart_featured_products.avail=\'Y\' AND xcart_featured_products.categoryid=\'0\'\";}}}s:10:\"sort_field\";s:7:\"orderby\";s:14:\"sort_direction\";i:0;s:13:\"manufacturers\";a:0:{}}}s:22:\"https_redirect_counter\";i:0;s:24:\"https_redirect_forbidden\";b:0;s:4:\"wlid\";s:0:\"\";s:11:\"top_message\";s:0:\"\";s:15:\"referer_session\";b:0;s:5:\"login\";s:0:\"\";s:10:\"login_type\";s:0:\"\";s:13:\"logged_userid\";i:0;s:11:\"identifiers\";a:0:{}s:14:\"remember_login\";b:0;s:13:\"remember_data\";s:0:\"\";s:14:\"_remember_vars\";s:0:\"\";s:7:\"old_lng\";s:0:\"\";s:20:\"is_switched_language\";s:0:\"\";s:14:\"filled_surveys\";s:0:\"\";s:18:\"new_offers_message\";s:0:\"\";s:25:\"customer_available_offers\";a:0:{}s:16:\"rviewed_products\";s:0:\"\";s:23:\"require_change_password\";s:0:\"\";s:16:\"login_antibot_on\";s:0:\"\";s:22:\"store_objects_per_page\";i:0;s:24:\"stored_navigation_script\";s:8:\"home.php\";}');
+INSERT INTO xcart_sessions_data VALUES ('1b6c770803be6a4a44c0246e405a492a', 1449116744, 1449120344, 'a:41:{s:17:\"_saved_session_fg\";s:32:\"dbbaf6ebb0240fdf90c82a951e227dd1\";s:14:\"is_new_session\";b:1;s:8:\"is_robot\";s:1:\"N\";s:5:\"robot\";s:0:\"\";s:11:\"editor_mode\";s:0:\"\";s:11:\"is_location\";s:0:\"\";s:9:\"adaptives\";a:1:{s:14:\"is_first_start\";s:1:\"Y\";}s:10:\"flc_forced\";b:0;s:18:\"pinterest_endpoint\";s:42:\"//d3io1k5o0zdpqr.cloudfront.net/pinit.html\";s:15:\"allowed_surveys\";s:0:\"\";s:22:\"antibot_validation_val\";a:5:{s:13:\"on_contact_us\";a:2:{s:4:\"code\";s:5:\"57347\";s:4:\"used\";s:1:\"N\";}s:8:\"on_login\";a:2:{s:4:\"code\";s:5:\"37449\";s:4:\"used\";s:1:\"N\";}s:10:\"on_reviews\";a:2:{s:4:\"code\";s:5:\"35163\";s:4:\"used\";s:1:\"N\";}s:10:\"on_surveys\";a:2:{s:4:\"code\";s:5:\"78858\";s:4:\"used\";s:1:\"N\";}s:13:\"on_news_panel\";a:2:{s:4:\"code\";s:5:\"96819\";s:4:\"used\";s:1:\"N\";}}s:23:\"offer_products_priority\";a:0:{}s:4:\"cart\";s:0:\"\";s:19:\"comparison_list_ids\";s:0:\"\";s:11:\"logout_user\";s:0:\"\";s:26:\"session_failed_transaction\";s:0:\"\";s:16:\"add_to_cart_time\";s:0:\"\";s:17:\"always_allow_shop\";b:0;s:11:\"search_data\";a:1:{s:8:\"products\";a:7:{s:12:\"add_page_url\";s:11:\"&featured=Y\";s:7:\"forsale\";s:1:\"Y\";s:14:\"sort_condition\";s:37:\"xcart_featured_products.product_order\";s:1:\"_\";a:1:{s:11:\"inner_joins\";a:1:{s:17:\"featured_products\";a:1:{s:2:\"on\";s:139:\"xcart_products.productid=xcart_featured_products.productid AND xcart_featured_products.avail=\'Y\' AND xcart_featured_products.categoryid=\'0\'\";}}}s:10:\"sort_field\";s:7:\"orderby\";s:14:\"sort_direction\";i:0;s:13:\"manufacturers\";a:0:{}}}s:22:\"https_redirect_counter\";i:0;s:24:\"https_redirect_forbidden\";b:0;s:4:\"wlid\";s:0:\"\";s:11:\"top_message\";s:0:\"\";s:15:\"referer_session\";b:0;s:5:\"login\";s:0:\"\";s:10:\"login_type\";s:0:\"\";s:13:\"logged_userid\";i:0;s:11:\"identifiers\";a:0:{}s:14:\"remember_login\";b:0;s:13:\"remember_data\";s:0:\"\";s:14:\"_remember_vars\";s:0:\"\";s:7:\"old_lng\";s:0:\"\";s:20:\"is_switched_language\";s:0:\"\";s:14:\"filled_surveys\";s:0:\"\";s:18:\"new_offers_message\";s:0:\"\";s:25:\"customer_available_offers\";a:0:{}s:16:\"rviewed_products\";s:0:\"\";s:23:\"require_change_password\";s:0:\"\";s:16:\"login_antibot_on\";s:0:\"\";s:22:\"store_objects_per_page\";i:0;s:24:\"stored_navigation_script\";s:8:\"home.php\";}');
+INSERT INTO xcart_sessions_data VALUES ('879db11307ca461f8211804c9f0b2489', 1449116885, 1449120485, 'a:41:{s:17:\"_saved_session_fg\";s:32:\"9d71132e767fcef5b997c05b755dc4a8\";s:14:\"is_new_session\";b:1;s:8:\"is_robot\";s:1:\"N\";s:5:\"robot\";s:0:\"\";s:11:\"editor_mode\";s:0:\"\";s:11:\"is_location\";s:0:\"\";s:9:\"adaptives\";a:1:{s:14:\"is_first_start\";s:1:\"Y\";}s:10:\"flc_forced\";b:0;s:18:\"pinterest_endpoint\";s:42:\"//d3io1k5o0zdpqr.cloudfront.net/pinit.html\";s:15:\"allowed_surveys\";s:0:\"\";s:22:\"antibot_validation_val\";a:5:{s:13:\"on_contact_us\";a:2:{s:4:\"code\";s:5:\"67661\";s:4:\"used\";s:1:\"N\";}s:8:\"on_login\";a:2:{s:4:\"code\";s:5:\"77881\";s:4:\"used\";s:1:\"N\";}s:10:\"on_reviews\";a:2:{s:4:\"code\";s:5:\"49754\";s:4:\"used\";s:1:\"N\";}s:10:\"on_surveys\";a:2:{s:4:\"code\";s:5:\"49213\";s:4:\"used\";s:1:\"N\";}s:13:\"on_news_panel\";a:2:{s:4:\"code\";s:5:\"74173\";s:4:\"used\";s:1:\"N\";}}s:23:\"offer_products_priority\";a:0:{}s:4:\"cart\";s:0:\"\";s:19:\"comparison_list_ids\";s:0:\"\";s:11:\"logout_user\";s:0:\"\";s:26:\"session_failed_transaction\";s:0:\"\";s:16:\"add_to_cart_time\";s:0:\"\";s:17:\"always_allow_shop\";b:0;s:11:\"search_data\";a:1:{s:8:\"products\";a:7:{s:12:\"add_page_url\";s:11:\"&featured=Y\";s:7:\"forsale\";s:1:\"Y\";s:14:\"sort_condition\";s:37:\"xcart_featured_products.product_order\";s:1:\"_\";a:1:{s:11:\"inner_joins\";a:1:{s:17:\"featured_products\";a:1:{s:2:\"on\";s:139:\"xcart_products.productid=xcart_featured_products.productid AND xcart_featured_products.avail=\'Y\' AND xcart_featured_products.categoryid=\'0\'\";}}}s:10:\"sort_field\";s:7:\"orderby\";s:14:\"sort_direction\";i:0;s:13:\"manufacturers\";a:0:{}}}s:22:\"https_redirect_counter\";i:0;s:24:\"https_redirect_forbidden\";b:0;s:4:\"wlid\";s:0:\"\";s:11:\"top_message\";s:0:\"\";s:15:\"referer_session\";s:22:\"http://congcewang.com/\";s:5:\"login\";s:0:\"\";s:10:\"login_type\";s:0:\"\";s:13:\"logged_userid\";i:0;s:11:\"identifiers\";a:0:{}s:14:\"remember_login\";b:0;s:13:\"remember_data\";s:0:\"\";s:14:\"_remember_vars\";s:0:\"\";s:7:\"old_lng\";s:0:\"\";s:20:\"is_switched_language\";s:0:\"\";s:14:\"filled_surveys\";s:0:\"\";s:18:\"new_offers_message\";s:0:\"\";s:25:\"customer_available_offers\";a:0:{}s:16:\"rviewed_products\";s:0:\"\";s:23:\"require_change_password\";s:0:\"\";s:16:\"login_antibot_on\";s:0:\"\";s:22:\"store_objects_per_page\";i:0;s:24:\"stored_navigation_script\";s:8:\"home.php\";}');
+INSERT INTO xcart_sessions_data VALUES ('0b0cc0148ad316359f3f4c1e8fc85b66', 1449116885, 1449120488, 'a:41:{s:17:\"_saved_session_fg\";s:32:\"9d71132e767fcef5b997c05b755dc4a8\";s:8:\"is_robot\";s:1:\"N\";s:5:\"robot\";s:0:\"\";s:11:\"editor_mode\";s:0:\"\";s:11:\"is_location\";s:0:\"\";s:9:\"adaptives\";a:6:{s:14:\"is_first_start\";s:0:\"\";s:7:\"browser\";s:6:\"Chrome\";s:7:\"version\";s:12:\"13.0.782.215\";s:4:\"hard\";s:4:\"i386\";s:8:\"language\";s:5:\"en-US\";s:8:\"platform\";s:6:\"MacPPC\";}s:10:\"flc_forced\";b:0;s:18:\"pinterest_endpoint\";s:42:\"//d3io1k5o0zdpqr.cloudfront.net/pinit.html\";s:15:\"allowed_surveys\";s:0:\"\";s:22:\"antibot_validation_val\";a:5:{s:13:\"on_contact_us\";a:2:{s:4:\"code\";s:5:\"52799\";s:4:\"used\";s:1:\"N\";}s:8:\"on_login\";a:2:{s:4:\"code\";s:5:\"81349\";s:4:\"used\";s:1:\"N\";}s:10:\"on_reviews\";a:2:{s:4:\"code\";s:5:\"74669\";s:4:\"used\";s:1:\"N\";}s:10:\"on_surveys\";a:2:{s:4:\"code\";s:5:\"45149\";s:4:\"used\";s:1:\"N\";}s:13:\"on_news_panel\";a:2:{s:4:\"code\";s:5:\"68265\";s:4:\"used\";s:1:\"N\";}}s:23:\"offer_products_priority\";a:0:{}s:4:\"cart\";s:0:\"\";s:19:\"comparison_list_ids\";s:0:\"\";s:14:\"xid_remove_try\";b:1;s:11:\"logout_user\";s:0:\"\";s:26:\"session_failed_transaction\";s:0:\"\";s:16:\"add_to_cart_time\";s:0:\"\";s:17:\"always_allow_shop\";b:0;s:11:\"search_data\";a:1:{s:8:\"products\";a:7:{s:12:\"add_page_url\";s:11:\"&featured=Y\";s:7:\"forsale\";s:1:\"Y\";s:14:\"sort_condition\";s:37:\"xcart_featured_products.product_order\";s:1:\"_\";a:1:{s:11:\"inner_joins\";a:1:{s:17:\"featured_products\";a:1:{s:2:\"on\";s:139:\"xcart_products.productid=xcart_featured_products.productid AND xcart_featured_products.avail=\'Y\' AND xcart_featured_products.categoryid=\'0\'\";}}}s:10:\"sort_field\";s:7:\"orderby\";s:14:\"sort_direction\";i:0;s:13:\"manufacturers\";a:0:{}}}s:22:\"https_redirect_counter\";i:0;s:24:\"https_redirect_forbidden\";b:0;s:4:\"wlid\";s:0:\"\";s:11:\"top_message\";s:0:\"\";s:15:\"referer_session\";s:65:\"http://congcewang.com/?xid_793fc=0b0cc0148ad316359f3f4c1e8fc85b66\";s:5:\"login\";s:0:\"\";s:10:\"login_type\";s:0:\"\";s:13:\"logged_userid\";i:0;s:11:\"identifiers\";a:0:{}s:14:\"remember_login\";b:0;s:13:\"remember_data\";s:0:\"\";s:14:\"_remember_vars\";s:0:\"\";s:7:\"old_lng\";s:0:\"\";s:20:\"is_switched_language\";s:0:\"\";s:14:\"filled_surveys\";s:0:\"\";s:18:\"new_offers_message\";s:0:\"\";s:25:\"customer_available_offers\";a:0:{}s:16:\"rviewed_products\";s:0:\"\";s:23:\"require_change_password\";s:0:\"\";s:16:\"login_antibot_on\";s:0:\"\";s:22:\"store_objects_per_page\";i:0;s:24:\"stored_navigation_script\";s:8:\"home.php\";}');
+INSERT INTO xcart_sessions_data VALUES ('3064305b54ac8cc1e03a0a5f6bf19abb', 1449118364, 1449121965, 'a:41:{s:17:\"_saved_session_fg\";s:32:\"06827ab019c803a0eadf4c48377ddf2e\";s:8:\"is_robot\";s:1:\"N\";s:5:\"robot\";s:0:\"\";s:11:\"editor_mode\";s:0:\"\";s:11:\"is_location\";s:0:\"\";s:9:\"adaptives\";a:1:{s:14:\"is_first_start\";s:1:\"Y\";}s:10:\"flc_forced\";b:0;s:18:\"pinterest_endpoint\";s:42:\"//d3io1k5o0zdpqr.cloudfront.net/pinit.html\";s:15:\"allowed_surveys\";s:0:\"\";s:22:\"antibot_validation_val\";a:5:{s:13:\"on_contact_us\";a:2:{s:4:\"code\";s:5:\"64819\";s:4:\"used\";s:1:\"N\";}s:8:\"on_login\";a:2:{s:4:\"code\";s:5:\"56389\";s:4:\"used\";s:1:\"N\";}s:10:\"on_reviews\";a:2:{s:4:\"code\";s:5:\"42418\";s:4:\"used\";s:1:\"N\";}s:10:\"on_surveys\";a:2:{s:4:\"code\";s:5:\"93721\";s:4:\"used\";s:1:\"N\";}s:13:\"on_news_panel\";a:2:{s:4:\"code\";s:5:\"29865\";s:4:\"used\";s:1:\"N\";}}s:23:\"offer_products_priority\";a:0:{}s:4:\"cart\";s:0:\"\";s:19:\"comparison_list_ids\";s:0:\"\";s:14:\"xid_remove_try\";b:0;s:11:\"logout_user\";s:0:\"\";s:26:\"session_failed_transaction\";s:0:\"\";s:16:\"add_to_cart_time\";s:0:\"\";s:17:\"always_allow_shop\";b:0;s:11:\"search_data\";a:1:{s:8:\"products\";a:7:{s:12:\"add_page_url\";s:11:\"&featured=Y\";s:7:\"forsale\";s:1:\"Y\";s:14:\"sort_condition\";s:37:\"xcart_featured_products.product_order\";s:1:\"_\";a:1:{s:11:\"inner_joins\";a:1:{s:17:\"featured_products\";a:1:{s:2:\"on\";s:139:\"xcart_products.productid=xcart_featured_products.productid AND xcart_featured_products.avail=\'Y\' AND xcart_featured_products.categoryid=\'0\'\";}}}s:10:\"sort_field\";s:7:\"orderby\";s:14:\"sort_direction\";i:0;s:13:\"manufacturers\";a:0:{}}}s:22:\"https_redirect_counter\";i:0;s:24:\"https_redirect_forbidden\";b:0;s:4:\"wlid\";s:0:\"\";s:11:\"top_message\";s:0:\"\";s:15:\"referer_session\";s:43:\"http://whois.domaintools.com/congcewang.com\";s:5:\"login\";s:0:\"\";s:10:\"login_type\";s:0:\"\";s:13:\"logged_userid\";i:0;s:11:\"identifiers\";a:0:{}s:14:\"remember_login\";b:0;s:13:\"remember_data\";s:0:\"\";s:14:\"_remember_vars\";s:0:\"\";s:7:\"old_lng\";s:0:\"\";s:20:\"is_switched_language\";s:0:\"\";s:14:\"filled_surveys\";s:0:\"\";s:18:\"new_offers_message\";s:0:\"\";s:25:\"customer_available_offers\";a:0:{}s:16:\"rviewed_products\";s:0:\"\";s:23:\"require_change_password\";s:0:\"\";s:16:\"login_antibot_on\";s:0:\"\";s:22:\"store_objects_per_page\";i:0;s:24:\"stored_navigation_script\";s:8:\"home.php\";}');
+INSERT INTO xcart_sessions_data VALUES ('2a06b9be561d7464274af4926e750715', 1449118453, 1449122066, 'a:43:{s:17:\"_saved_session_fg\";s:32:\"e153de44f740ecaa9a3385ae515a2bd7\";s:8:\"is_robot\";s:1:\"N\";s:5:\"robot\";s:0:\"\";s:11:\"editor_mode\";s:0:\"\";s:11:\"is_location\";s:1:\"Y\";s:9:\"adaptives\";a:13:{s:14:\"is_first_start\";s:0:\"\";s:4:\"isJS\";s:1:\"Y\";s:5:\"isDOM\";s:1:\"Y\";s:8:\"isStrict\";s:1:\"Y\";s:6:\"isJava\";s:0:\"\";s:7:\"browser\";s:6:\"Chrome\";s:7:\"version\";s:12:\"47.0.2526.73\";s:8:\"platform\";s:6:\"MacPPC\";s:8:\"isCookie\";s:1:\"Y\";s:8:\"screen_x\";s:4:\"2560\";s:8:\"screen_y\";s:4:\"1440\";s:4:\"hard\";s:4:\"i386\";s:8:\"language\";s:5:\"en-US\";}s:15:\"allowed_surveys\";s:0:\"\";s:22:\"antibot_validation_val\";a:5:{s:13:\"on_contact_us\";a:2:{s:4:\"code\";s:5:\"89791\";s:4:\"used\";s:1:\"N\";}s:8:\"on_login\";a:2:{s:4:\"code\";s:5:\"39384\";s:4:\"used\";s:1:\"N\";}s:10:\"on_reviews\";a:2:{s:4:\"code\";s:5:\"81286\";s:4:\"used\";s:1:\"N\";}s:10:\"on_surveys\";a:2:{s:4:\"code\";s:5:\"23262\";s:4:\"used\";s:1:\"N\";}s:13:\"on_news_panel\";a:2:{s:4:\"code\";s:5:\"12498\";s:4:\"used\";s:1:\"N\";}}s:23:\"offer_products_priority\";a:0:{}s:4:\"cart\";s:0:\"\";s:5:\"login\";s:16:\"646471375@qq.com\";s:10:\"login_type\";s:1:\"A\";s:6:\"logged\";s:0:\"\";s:13:\"export_ranges\";s:0:\"\";s:11:\"top_message\";s:0:\"\";s:16:\"login_antibot_on\";b:0;s:22:\"https_redirect_counter\";i:0;s:24:\"https_redirect_forbidden\";b:0;s:13:\"logged_userid\";s:1:\"2\";s:11:\"identifiers\";a:1:{s:1:\"A\";a:3:{s:6:\"userid\";s:1:\"2\";s:5:\"login\";s:16:\"646471375@qq.com\";s:10:\"login_type\";s:1:\"A\";}}s:17:\"merchant_password\";s:0:\"\";s:16:\"file_upload_data\";s:0:\"\";s:14:\"remember_login\";s:16:\"646471375@qq.com\";s:13:\"remember_data\";s:0:\"\";s:14:\"_remember_vars\";s:0:\"\";s:16:\"last_working_url\";a:1:{s:1:\"A\";s:41:\"http://congcewang.com/admin/db_backup.php\";}s:7:\"old_lng\";s:0:\"\";s:20:\"is_switched_language\";s:0:\"\";s:16:\"current_language\";s:2:\"en\";s:23:\"require_change_password\";s:0:\"\";s:24:\"stored_navigation_script\";s:0:\"\";s:10:\"flc_forced\";b:0;s:8:\"username\";s:16:\"646471375@qq.com\";s:11:\"logout_user\";b:0;s:19:\"previous_login_date\";s:10:\"1449105208\";s:13:\"login_attempt\";s:0:\"\";s:19:\"intershipper_recalc\";s:1:\"Y\";s:11:\"antibot_err\";s:0:\"\";s:14:\"login_redirect\";s:0:\"\";s:18:\"anonymous_userinfo\";a:0:{}s:7:\"bf_mode\";s:0:\"\";s:21:\"hide_security_warning\";s:0:\"\";s:13:\"backup_errors\";s:0:\"\";}');
 
 --
 -- Table structure for table `xcart_setup_images`
@@ -21013,10 +20991,10 @@ INSERT INTO xcart_stats_adaptive VALUES ('Win32', 'Chrome', '45.0.2454.101', 'Y'
 INSERT INTO xcart_stats_adaptive VALUES ('Win32', 'Chrome', '42.0.2311.135', 'Y', 'Y', 5, 'Y', 1920, 1080, 1444792613);
 INSERT INTO xcart_stats_adaptive VALUES ('Win32', 'Chrome', '45.0.2454.101', 'Y', 'Y', 2, 'N', 1920, 1080, 1444970954);
 INSERT INTO xcart_stats_adaptive VALUES ('MacIntel', 'Chrome', '46.0.2490.86', 'Y', 'Y', 6, 'Y', 2560, 1440, 1448844270);
-INSERT INTO xcart_stats_adaptive VALUES ('MacIntel', 'Safari', '601.2.7', 'Y', 'Y', 4, 'Y', 2560, 1440, 1448861654);
+INSERT INTO xcart_stats_adaptive VALUES ('MacIntel', 'Safari', '601.2.7', 'Y', 'Y', 5, 'Y', 2560, 1440, 1449104480);
 INSERT INTO xcart_stats_adaptive VALUES ('Win32', 'Chrome', '46.0.2490.86', 'Y', 'Y', 10, 'Y', 1920, 1080, 1449007198);
 INSERT INTO xcart_stats_adaptive VALUES ('MacIntel', 'Firefox', '42.0', 'Y', 'Y', 10, 'Y', 2560, 1440, 1449097500);
-INSERT INTO xcart_stats_adaptive VALUES ('Win32', 'Chrome', '36.0.1985.143', '', 'Y', 10, 'Y', 1366, 768, 1449033631);
+INSERT INTO xcart_stats_adaptive VALUES ('Win32', 'Chrome', '36.0.1985.143', '', 'Y', 11, 'Y', 1366, 768, 1449104284);
 INSERT INTO xcart_stats_adaptive VALUES ('Win32', 'Chrome', '36.0.1985.143', '', 'Y', 2, 'Y', 1280, 800, 1448852297);
 INSERT INTO xcart_stats_adaptive VALUES ('Win32', 'Chrome', '36.0.1985.143', '', 'Y', 1, 'Y', 1280, 1024, 1448102862);
 INSERT INTO xcart_stats_adaptive VALUES ('Win32', 'Chrome', '46.0.2490.86', 'Y', 'Y', 8, 'Y', 1600, 900, 1449100196);
@@ -21032,7 +21010,7 @@ INSERT INTO xcart_stats_adaptive VALUES ('Win32', 'Chrome', '46.0.2490.86', 'Y',
 INSERT INTO xcart_stats_adaptive VALUES ('Win32', 'Firefox', '42.0', '', 'Y', 1, 'Y', 1920, 1080, 1448941607);
 INSERT INTO xcart_stats_adaptive VALUES ('Linux', 'Chrome', '27.0.1453', '', 'Y', 1, 'Y', 1024, 1024, 1448942966);
 INSERT INTO xcart_stats_adaptive VALUES ('Win32', 'MSIE', '8.0', 'Y', 'Y', 1, 'Y', 1829, 1029, 1448947763);
-INSERT INTO xcart_stats_adaptive VALUES ('Win32', 'Chrome', '47.0.2526.73', '', 'Y', 1, 'Y', 1920, 1080, 1449099664);
+INSERT INTO xcart_stats_adaptive VALUES ('Win32', 'Chrome', '47.0.2526.73', '', 'Y', 2, 'Y', 1920, 1080, 1449104165);
 INSERT INTO xcart_stats_adaptive VALUES ('MacIntel', 'Chrome', '47.0.2526.73', '', 'Y', 1, 'Y', 2560, 1440, 1449100311);
 
 --
@@ -21159,6 +21137,8 @@ INSERT INTO xcart_stats_search VALUES (38, '华为', 1449102687);
 INSERT INTO xcart_stats_search VALUES (39, '我日了', 1449102707);
 INSERT INTO xcart_stats_search VALUES (40, '我日了', 1449102864);
 INSERT INTO xcart_stats_search VALUES (41, 'iphone 6s', 1449102877);
+INSERT INTO xcart_stats_search VALUES (42, 'iphone 6s', 1449103938);
+INSERT INTO xcart_stats_search VALUES (43, 'mate s', 1449104675);
 
 --
 -- Table structure for table `xcart_stats_shop`
@@ -21666,6 +21646,19 @@ INSERT INTO xcart_stats_shop VALUES (17612, 'V', 1449102164, 1);
 INSERT INTO xcart_stats_shop VALUES (17611, 'V', 1449102270, 1);
 INSERT INTO xcart_stats_shop VALUES (17612, 'V', 1449102377, 1);
 INSERT INTO xcart_stats_shop VALUES (17611, 'V', 1449102880, 1);
+INSERT INTO xcart_stats_shop VALUES (244, 'C', 1449103756, 1);
+INSERT INTO xcart_stats_shop VALUES (17551, 'V', 1449103761, 1);
+INSERT INTO xcart_stats_shop VALUES (17551, 'V', 1449103856, 1);
+INSERT INTO xcart_stats_shop VALUES (7, 'C', 1449104079, 1);
+INSERT INTO xcart_stats_shop VALUES (17611, 'V', 1449104084, 1);
+INSERT INTO xcart_stats_shop VALUES (17611, 'V', 1449104172, 1);
+INSERT INTO xcart_stats_shop VALUES (17611, 'V', 1449104209, 1);
+INSERT INTO xcart_stats_shop VALUES (75, 'C', 1449104469, 1);
+INSERT INTO xcart_stats_shop VALUES (17612, 'V', 1449104473, 1);
+INSERT INTO xcart_stats_shop VALUES (17611, 'V', 1449104474, 1);
+INSERT INTO xcart_stats_shop VALUES (17612, 'V', 1449104679, 1);
+INSERT INTO xcart_stats_shop VALUES (17612, 'V', 1449104710, 1);
+INSERT INTO xcart_stats_shop VALUES (17612, 'V', 1449104711, 1);
 
 --
 -- Table structure for table `xcart_stop_list`
