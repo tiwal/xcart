@@ -1,0 +1,3 @@
+b7d29aeb631ea90e845a9d6434f690dea:1:{s:11:"txt_welcome";s:467:"<p>Kiwi Mall is a B2B, B2C, C2C online shopping sites, it contains plenty of categories such as Appeals, Toys, Phone, Books, Computer hardware, Electronics, Gifts, Sports, etc. </p>
+
+<p>Web site includes all aspects of daily life for New Zealand people, shop online, run your business, make advertisements... Everyone can run a store in Kiwi Mall, and sell their products! Lower advertising costs and plenty of promotive opportunities let your business booming.</p>";}

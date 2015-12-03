@@ -1,0 +1,1 @@
+bd216e202da54aba5557b789cf666c75a:2:{s:14:"lbl_soc_pin_it";s:6:"Pin it";s:13:"lbl_soc_tweet";s:5:"Tweet";}

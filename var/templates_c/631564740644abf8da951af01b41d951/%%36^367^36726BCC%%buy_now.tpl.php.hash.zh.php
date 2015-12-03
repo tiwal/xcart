@@ -1,0 +1,1 @@
+4d30f423467760a11acbeefe4abe0a84a:5:{s:13:"lbl_add_to_wl";s:16:"Add to wish list";s:28:"lbl_product_quantity_from_to";s:70:"(from {{min}} to <span class="product-quantity-number">{{max}}</span>)";s:7:"lbl_qty";s:6:"数量";s:19:"txt_need_min_amount";s:45:"Note: you must order at least {{items}} items";s:16:"txt_out_of_stock";s:12:"Out of stock";}

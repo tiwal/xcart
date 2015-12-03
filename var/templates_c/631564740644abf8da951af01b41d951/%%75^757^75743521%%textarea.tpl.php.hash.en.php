@@ -1,0 +1,1 @@
+daaa5aec3521d48e6f54c0eccda56baca:2:{s:19:"lbl_advanced_editor";s:14:"WYSIWYG editor";s:18:"lbl_default_editor";s:14:"Default editor";}

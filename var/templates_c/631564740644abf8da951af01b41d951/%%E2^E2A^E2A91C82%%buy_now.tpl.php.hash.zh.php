@@ -1,0 +1,1 @@
+7ce970de372dad396ede5ce6aad4ae04a:2:{s:11:"lbl_buy_now";s:7:"Buy Now";s:15:"lbl_buy_now_img";s:66:"<img src="{{AltImagesDir}}/custom/add_to_cart.gif" alt="Buy Now"/>";}

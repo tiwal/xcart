@@ -1,0 +1,1 @@
+1069b3e9fb0de5eed03a8c0c5511e92ba:5:{s:12:"lbl_password";s:8:"Password";s:20:"lbl_recover_password";s:21:"Forgot your password?";s:12:"lbl_register";s:8:"Register";s:10:"lbl_submit";s:7:"Comfirm";s:15:"msg_err_antibot";s:86:"The characters you typed do not match the characters in the picture. Please try again.";}

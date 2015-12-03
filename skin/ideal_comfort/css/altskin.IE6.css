@@ -1,0 +1,141 @@
+body {
+	text-align: center;
+}
+#page-container{
+	text-align: left;
+	border-left:none;
+	float:none;
+}
+#page-container2 {
+  float: none;
+  margin-left: auto;
+  position: relative;
+}
+.t-l, .t-r, .b-l, .b-r {
+	overflow: hidden;
+}
+.b-l, .b-r {
+	bottom: -1px;
+	width: 1px;
+	height: 1px;
+}
+.tabs li {
+	width: 140;
+	text-align: center;
+}
+.products .details {
+  width: 100%;
+  padding-left: auto;
+  padding-left: 15px;
+}
+.creviews-vote-bar ul.star-0 {
+	float: left;
+	margin-left: 10px;
+}
+#left-bar .menu-dialog .title-bar,
+#left-bar .menu-dialog .content {
+  width: 250px;
+}
+#left-bar .menu-dialog .title-bar {
+	border-left: 0 none;
+	border-right: 0 none;
+}
+.welcome-table {
+	width: auto;
+}
+.welcome-table  td.bestsellers-cell {
+	padding-left: 20px;
+}
+.welcome-table  td.bestsellers-cell .menu-bestsellers .content{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+ 
+.products .buy-now  {
+	margin-top: 0px;
+}
+.products div.price-cell {
+	margin-top: 10px;
+}
+.products-list .descr {
+	padding-bottom: 5px;
+}
+.fancycat-icons-e li ul {
+  left: 223px;
+}
+.fancycat-icons-e li ul.fancycat-icons-level-1 li ul {
+  left: 213px;
+}
+.fancycat-icons-e li ul {
+  border: 0px none;
+  background: #dfdfdf none;
+  padding: 1px;
+}
+ 
+.fancycat-icons-e ul li {
+  background: white none;
+  padding-right: 6px;
+  padding-left: 5px;
+}
+ 
+.fancycat-icons-e ul li a:link,
+  .fancycat-icons-e ul li a:visited,
+  .fancycat-icons-e ul li a:hover,
+  .fancycat-icons-e ul li a:active
+{
+  width: 189px;
+}
+.fancycat-page-subskin-c .menu-fancy-categories-list .content {
+  overflow: hidden;
+}
+.fancycat-icons-c li a.arrow:link,
+  .fancycat-icons-c li a.arrow:visited,
+  .fancycat-icons-c li a.arrow:hover,
+  .fancycat-icons-c li a.arrow:active
+{
+  left: -19px;
+}
+ 
+.products .creviews-rating-box ul.star-0 {
+  margin-left: 10px;
+}
+#left-bar .menu-minicart{
+	zoom:1;
+}
+
+/* Flyout_Menus styles */
+.fancycat-icons-e li ul {
+  left: 195px;
+}
+.fancycat-icons-e li ul.fancycat-icons-level-1 li ul {
+  left: 185px;
+}
+.fancycat-icons-e li ul {
+  background: #dfdfdf none;
+}
+.fancycat-icons-e ul li a:link,
+.fancycat-icons-e ul li a:visited,
+.fancycat-icons-e ul li a:hover,
+ .fancycat-icons-e ul li a:active
+{
+  width: 189px;
+}
+.fancycat-icons-c li a.arrow:link,
+  .fancycat-icons-c li a.arrow:visited,
+  .fancycat-icons-c li a.arrow:hover,
+  .fancycat-icons-c li a.arrow:active
+{
+  left: -19px;
+}
+/* end Flyout_Menus styles */
+
+.prod-tabs{
+	margin: 33px 0px;
+	zoom:1;
+}
+.prod-tabs dt span {
+	display: inline;
+}
+.prod-tabs .tab-content {
+	zoom: 1;
+}

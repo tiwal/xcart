@@ -1,0 +1,1 @@
+90995c4895d20a17c7a2e278575a4700a:4:{s:19:"lbl_billing_address";s:15:"Billing address";s:13:"lbl_gmap_show";s:15:"Show on the map";s:9:"lbl_phone";s:12:"电话号码";s:20:"lbl_shipping_address";s:16:"Shipping address";}

@@ -1,0 +1,1 @@
+6997b1f02afbf1ee20d96e4bd55054b9a:2:{s:24:"lbl_provider_login_title";s:24:"Login into provider area";s:14:"txt_site_title";s:43:"X-CART. Powerful PHP shopping cart software";}

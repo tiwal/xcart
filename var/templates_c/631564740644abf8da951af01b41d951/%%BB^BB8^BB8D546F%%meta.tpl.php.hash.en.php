@@ -1,0 +1,1 @@
+18b0ab44848c9fcc0ecbbae835854231a:2:{s:9:"lbl_close";s:5:"Close";s:22:"lbl_gmap_geocode_error";s:59:"Requested address was not found with the Google Map service";}

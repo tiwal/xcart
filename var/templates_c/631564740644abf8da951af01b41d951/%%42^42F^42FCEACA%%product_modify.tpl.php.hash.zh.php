@@ -1,0 +1,1 @@
+9bbe976b1b6e2f7e049b1c7143489367a:2:{s:29:"lbl_sp_apply_offers_discounts";s:30:"Apply special offers discounts";s:28:"lbl_sp_give_bp_for_each_item";s:43:"Give bonus points (for each purchased item)";}

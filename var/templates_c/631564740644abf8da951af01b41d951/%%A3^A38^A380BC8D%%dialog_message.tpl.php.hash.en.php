@@ -1,0 +1,1 @@
+ab3c4b9fd832f77768d8513a7f9b4b80a:2:{s:9:"lbl_close";s:5:"Close";s:27:"lbl_go_to_last_edit_section";s:35:"Go to the previously edited section";}

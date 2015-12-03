@@ -1,0 +1,1 @@
+74c2e76a7aa722de820081e0730cb720a:2:{s:19:"lbl_advanced_editor";s:14:"WYSIWYG editor";s:18:"lbl_default_editor";s:14:"Default editor";}

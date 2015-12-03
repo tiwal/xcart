@@ -1,0 +1,13 @@
+.products .creviews-rating-box, .products .creviews-rating-box .creviews-vote-bar {
+	position:relative;
+	width:100%
+}
+ .products .creviews-rating-box .creviews-vote-bar ul.star-0 {
+	float:left;
+	left:95px;
+	clear:both;
+}
+.products .creviews-rating-box .creviews-rating{
+	top:20px;
+	position:relative;
+}

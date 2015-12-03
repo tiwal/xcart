@@ -1,0 +1,24 @@
+button.add-to-cart-button{
+	width:38px !important;
+	margin-top:-2px !important;
+}
+.products-list button.add-to-cart-button{
+	width:auto !important;
+}
+button.light-button.add-to-cart-button{
+	width:auto !important;
+	margin-top:0px !important;
+}
+button.do-add2cart-error {
+  margin-top:0px !important;
+  width:55px !important;
+}
+
+button.do-add2cart-success{
+   margin-top:0px !important;
+   width:55px !important;
+}
+
+button.do-add2cart-wait {
+   margin-top:-1px !important;
+}

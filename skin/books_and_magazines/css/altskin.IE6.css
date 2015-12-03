@@ -1,0 +1,44 @@
+html,body {
+  width: 100%;
+  text-align: center;
+}
+
+#page-container {
+  height: 100%;
+  border-left: none;
+  float: none;
+  position: relative;
+}
+
+#page-container2 {
+  float: none;
+  margin-left: 0px;
+  width: 960px;  
+  position: relative;
+  height: 620px;
+}
+#header {
+	zoom: 1;
+}
+.popup-address li.address-box {
+  width: 215px;
+}
+
+
+.fancycat-icons-e li ul {
+  left: 221px;
+}
+.fancycat-icons-e li ul.fancycat-icons-level-1 li ul {
+  left: 220px;
+}
+.fancycat-icons-e ul li a:link,
+  .fancycat-icons-e ul li a:visited,
+  .fancycat-icons-e ul li a:hover,
+  .fancycat-icons-e ul li a:active
+{
+  width: 226px;
+}
+
+.tabs2 li {
+  width: 0;
+}

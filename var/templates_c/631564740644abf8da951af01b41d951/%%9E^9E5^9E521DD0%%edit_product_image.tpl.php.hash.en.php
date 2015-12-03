@@ -1,0 +1,1 @@
+10620dabcaab8c7ded41c88ec1ec58f5a:1:{s:18:"lbl_view_full_size";s:21:"View full-sized image";}

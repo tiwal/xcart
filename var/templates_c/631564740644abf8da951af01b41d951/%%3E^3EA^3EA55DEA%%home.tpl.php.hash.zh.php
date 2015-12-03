@@ -1,0 +1,1 @@
+d2bfc1ce7204549d94bf25f2697e3e98a:2:{s:24:"lbl_provider_login_title";s:18:"商家页面登录";s:14:"txt_site_title";s:43:"X-CART. Powerful PHP shopping cart software";}

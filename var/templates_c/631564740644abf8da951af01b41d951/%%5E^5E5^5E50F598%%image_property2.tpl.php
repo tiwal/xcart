@@ -1,0 +1,5 @@
+<?php /* Smarty version 2.6.26, created on 2015-12-02 18:05:47
+         compiled from main/image_property2.tpl */ ?>
+<?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
+smarty_core_load_plugins(array('plugins' => array(array('function', 'byte_format', 'main/image_property2.tpl', 7, false),)), $this); ?>
+<?php echo ''; ?><?php if ($this->_tpl_vars['image'] && $this->_tpl_vars['image']['image_type'] != '' && $this->_tpl_vars['image']['image_size'] > 0): ?><?php echo ''; ?><?php echo $this->_tpl_vars['image']['image_x']; ?><?php echo 'x'; ?><?php echo $this->_tpl_vars['image']['image_y']; ?><?php echo ', '; ?><?php echo smarty_function_byte_format(array('value' => $this->_tpl_vars['image']['image_size'],'format' => 'k'), $this);?><?php echo ' kb'; ?><?php endif; ?><?php echo ''; ?><?php if ($this->_tpl_vars['show_modified']): ?><?php echo '&nbsp;&nbsp;<span style="color: #b51a00;"><b>'; ?><?php echo $this->_tpl_vars['lng']['lbl_modified']; ?><?php echo '</b></span>'; ?><?php endif; ?><?php echo ''; ?>

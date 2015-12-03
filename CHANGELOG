@@ -1,0 +1,168 @@
+$Id: CHANGELOG,v 1.20.2.9.2.4 2012/04/23 06:59:31 aim Exp $
+
+------------------ X-CART v4.5.0 RELEASED
+
+*SHIPPING*
+
+[*] 16 Apr 2012, aim - Improvement (0120653): Changed the 'Number of grams in the unit of weight defined by the weight symbol' from '453.6' to '453.59237'.
+
+*PAYMENTS*
+
+[!] 16 Apr 2012, aim - Bug (0120280): PayPal PRO Direct Payment fails to work with X-Cart via X-Payments. Fixed.
+[!] 17 Apr 2012, aim - Bug (0120538): eWay merchant hosted payments error: XML not formatted correctly. Reason: Whitespace is not allowed. Fixed.
+[*] 18 Apr 2012, aim - Improvement (0120787): Changed schema for the xcart_cc_pp3_data table: sessid char(32) NOT NULL DEFAULT ''.
+
+*TAXES*
+
+[*] 16 Apr 2012, aim - Improvement (0120552): Changes related to TaxCloud module.
+
+*PRODUCTS*
+
+[*] 11 Apr 2012, aim - Improvement (0113856): Added 'Compatibility with old product storage routine' setting.
+[!] 20 Apr 2012, aim - Bug (0120314): Products Map fails to work with UTF-8. Fixed.
+
+*IMPORT/EXPORT*
+
+[*] 11 Apr 2012, aim - Improvement (0120543): Added data_type binary(3) field to xcart_import_cache.
+
+*USERS*
+
+[!] 16 Apr 2012, ferz - Bug (0120527): Address book: The state field remains in the profile after selecting a country without states. Fixed.
+
+*MODULES/ADD-ONS*
+
+[!] 13 Apr 2012, ferz - Bug (0120606): Froogle: Wholesale price used in some cases instead of original price. Fixed.
+[!] 16 Apr 2012, ferz - Bug (0120611): XML Sitemap: Clean URLs for categories generated with missing trailing '/'. Fixed.
+[!] 17 Apr 2012, aim - Bug (0120530): Antifraud problems: "declined_orders" and "completed_orders" calculated incorrectly. Fixed.
+[!] 18 Apr 2012, aim - Bug (0120551): Expired cache not removed in the TaxCloud module. Fixed.
+[!] 18 Apr 2012, aim - Bug (0120793): Cache not removed for the Amazon_Checkout module. Fixed.
+
+*PERFORMANCE*
+
+[*] 18 Apr 2012, aim - Improvement (0120785): Changed schema for the xcart_amazon_data table for Amazon_Checkout.
+
+*MISCELLANEOUS*
+[!] 02 Apr 2012, aim - Bug (0113021): 'I accept the "Terms & Conditions"' link fails to work when the shop closes on the partner registration page; 'X-Cart news' section fails to appear. Fixed.
+[*] 16 Apr 2012, aim - Improvement (0120597): Updated COMPATIBLE_VERSION constant to 4.5.x.
+[*] 16 Apr 2012, aim - Improvement (0120669): Moved help.qtmsoft.com to help.x-cart.com.
+[!] 17 Apr 2012, aim - Bug (0120708): Database integrity issue. Fixed.
+[*] 17 Apr 2012, aim - Improvement (0120328): Changed minimum MySQL version to 4.1.2.
+[!] 18 Apr 2012, aim - Bug (0120789): Typo in the db_connection function. Fixed.
+[!] 19 Apr 2012, aim - Bug (0106914): Admin top menu fails to work in iOS Safari browser (iPad/iPod). Fixed.
+
+----------------- X-CART v4.5.0 beta 1 RELEASED
+
+*CART*
+
+[!] 29 Feb 2012, aim - Bug (0119066): Online payment methods fail to appear in the customer area. Fixed.
+
+*SHIPPING*
+
+[*] 07 Mar 2012, aim - Improvement (0102330): Added new 'Split the shipment into multiple packages if its weight/dimensions exceed the limitations' setting for the USPS module.
+[*] 07 Mar 2012, aim - Improvement (0118585): Updated the USPS module.
+[*] 07 Mar 2012, aim - Improvement (0118131): USPS server does not support the testing.shippingapis.com URL. The production.shippingapis.com URL is hardcoded for the USPS module.
+[*] 07 Mar 2012, aim - Improvement (0117638): Added new methods for the USPS module.
+[*] 07 Mar 2012, aim - Improvement (0116832): Added new Priority Mail Regional Box A/B/C containers for the USPS module.
+[*] 09 Mar 2012, aim - Improvement (0068722): Removed depricated shipping methods for the USPS module.
+[*] 09 Mar 2012, aim - Improvement (0092331): Corrected weight limits for First Class methods for the USPS module.
+[*] 09 Mar 2012, aim - Improvement (0117303): Code refactoring for the USPS module. Removed global variable. Added functions: func_USPS_has_response_error, func_USPS_parse_methods, func_usps_save_pack_configuration_slg, func_USPS_prepare_rate_query, func_USPS_log_debug_information.
+[*] 12 Mar 2012, aim - Improvement (0117303, 0119371): Adjusted func_usps_check_shippingid, related to the shipping label generator module of the USPS module.
+[*] 12 Mar 2012, aim - Improvement (0108307): 'Value of content' is now related to order total for the USPS module.
+[*] 12 Mar 2012, aim - Improvement (0117303): Fixed the 'Invalid First Class Mail Type' error related to the USPS module.
+[*] 12 Mar 2012, aim - Improvement (0117303): Fixed the 'GIFT CARD FLAT RATE is an invalid container type for a REGULAR package and PRIORITY service' error in the USPS module.
+[*] 13 Mar 2012, aim - Improvement (0117303): Fixed the 'REGIONALRATEBOXB is an invalid container type for a REGULAR package and PRIORITY service' error in the USPS module.
+[*] 13 Mar 2012, aim - Improvement (0117303): Fixed the 'Service not available' error in the USPS module.
+[*] 13 Mar 2012, aim - Improvement (0117303): Added new methods to the USPS module.
+[*] 13 Mar 2012, aim - Improvement (0117303): Adjusted default settings for the USPS module.
+
+*PAYMENTS*
+
+[*] 02 Feb 2012, aim - Improvement (0118206): Changed PSiGate payment integration to the 'Interac Online' method (not involving credit cards).
+[*] 02 Feb 2012, aim - Improvement (0117648): Changed background for 'eSec - ReDirect' and 'DIBS' to 'Y', as it will be removed.
+[*] 06 Feb 2012, aim - Improvement (0117648): Added pop-up info window for deleted background payments methods for PCI-DSS compatibility.
+[*] 15 Feb 2012, aim - Improvement (0117652): Removed the 'Add CC manual processing' feature from the payment methods page.
+[*] 16 Feb 2012, aim - Improvement (0117652): Changed new payment method wizard.
+[*] 17 Feb 2012, aim - Improvement (0117652): 'Phone Ordering' is now the default method.
+[*] 17 Feb 2012, aim - Improvement (0117652): Adjusted the func_cart_add_offline_payment/func_get_offline_payment_methods tests.
+[*] 27 Feb 2012, aim - Improvement (0117652): Moved the certified_cart.gif logo from Authorize.Net: AIM payment method to Authorize.Net: SIM payment method.
+[!] 21 Mar 2012, aim - Improvement (0119820): PHP Fatal error: Call to undefined function func_set_cart_address() in payment/ps_paypal_pro_us.php. Fixed.
+[*] 21 Mar 2012, aim - Improvement (0119826): Changed wait limit for for customer return requests in the "Checkout by Amazon" module to 20 sec.
+[*] 21 Mar 2012, aim - Improvement (0119830): Slightly adjusted Amazon Checkout settings.
+[*] 09 Apr 2012, ferz - Improvement (0120433): Updated ProxyPay3 payment method.
+
+*PRODUCTS*
+
+[!] 14 Feb 2012, aim - Bug (0118594): Product page sometimes displays wrong product. Fixed.
+
+*CATEGORIES*
+
+[!] 27 Mar 2012, aim - Bug (0098989): Fixed category name on the 'Category products' page.
+
+*USERS*
+
+[!] 28 Mar 2012, aim - Bug (0119665): Wrong language in the 'Order is processed' notification to customers for anonymous customers. Fixed.
+
+*MODULES/ADD-ONS*
+
+[!] 06 Feb 2012, aim - Bug (0118239): XPayments_Connector shows warnings for the 'Direct debit processor' and 'Check processor' payment methods. Fixed.
+[!] 22 Mar 2012, aim - Bug (0119299): You are not allowed to access that resource! Id:32 error fixed for Amazon_Checkout.
+[!] 26 Mar 2012, ferz - Bug (0119958): Froogle: "The content in an attribute in an item exceeds 10 KB." error appears for long detailed product descriptions. Fixed.
+[!] 29 Mar 2012, ferz - Bug (0118507): Product sitemap causes SQL error with some configuration settings. Fixed.
+[*] 06 Apr 2012, ferz - Improvement (0118818): TaxCloud module integration.
+[*] 09 Apr 2012, ferz - Improvement (0120276): Added X-Payments connector link to the Payment methods section and the main menu.
+[*] 09 Apr 2012, aim - Improvement (0118814): Updated Socialize module. Added Pinterest feature.
+
+*LANGUAGES*
+
+[*] 22 Feb 2012, aim - Improvement (0117652): Removed obsolete language labels from language files.
+[*] 28 Feb 2012, aim - Improvement (0117652): Corrected some language variables.
+[*] 04 Apr 2012, ferz - Improvement (0120313): Updated welcome text.
+[*] 04 Apr 2012, aim - Improvement (0120290): Changed default charset SQL connection/results/client to UTF-8.
+
+*DESIGN AND APPEARANCE*
+
+[*] 27 Feb 2012, aim - Improvement (0117652): Removed unused CSS styles.
+[*] 22 Mar 2012, aim - Improvement (0118986): Removed unused CSS classes.
+[!] 22 Mar 2012, aim - Bug (0119738): Fixed W3C errors in the One_Page_Checkout module.
+[!] 27 Mar 2012, aim - Bug (0108889): Fixed W3C errors in the admin area.
+[!] 04 Apr 2012, ferz - Bug (0120284): Special characters in the SpeedBar text could cause W3C errors. Fixed.
+[*] 06 Apr 2012, ferz - Improvement (0120349): 'Books and Magazines', 'Ideal Comfort' skin integration.
+[*] 09 Apr 2012, aim - Improvement (0120100): Updated demo products.
+[*] 09 Apr 2012, aim - Improvement (0120449): Added index name to aggregated CSS file.
+
+*PERFORMANCE*
+
+[!] 06 Apr 2012, aim - Bug (0120406): International product descriptions are now stored in separate tables. Changed demo data.
+
+*SECURITY*
+
+[*] 07 Feb 2012, aim - Improvement (0117652): Removed several background CC methods.
+[*] 14 Feb 2012, aim - Improvement (0117652, 0118487): Removed code related to CC data checking.
+[*] 14 Feb 2012, aim - Improvement (0117652, 0118487): Removed obsolete CC-related settings.
+[*] 15 Feb 2012, aim - Improvement (0117652): Removed templates with the CC form.
+[*] 16 Feb 2012, aim - Improvement (0117652): Removed the 'Remove from customers\' profiles' feature.
+[*] 17 Feb 2012, aim - Improvement (0117652): Added the 'This function works with upgraded stores only' note to the 'Remove credit card information' function in the admin area.
+[*] 17 Feb 2012, aim - Improvement (0117652): Removed the popup help CVV2 window.
+[*] 17 Feb 2012, aim - Improvement (0117652): Removed credit card payment method from demo orders.
+[*] 21 Feb 2012, aim - Improvement (0117652): Removed the subscriptions module.
+[*] 01 Mar 2012, aim - Improvement (0118356): Adjusted security settings.
+
+*MISCELLANEOUS*
+
+[*] 24 Jan 2012, aim - Improvement (0117835): Disabled cleanup.php and "Maintenance->Clear templates/X-Cart cache" for the demo mode.
+[!] 06 Feb 2012, aim - Bug (0118314): XPayments_Connector: 'Warning! Payment methods have already been imported from X-Payments earlier. All previously imported payment methods will be removed from the database if you select to import payment methods again.' appears unconditionally. Fixed.
+[*] 14 Feb 2012, aim - Improvement (0117652): Removed obsolete language variables.
+[!] 15 Feb 2012, aim - Bug (0118611): TYPO in the "DIBS (FlexWin)" payment module. Fixed.
+[*] 15 Feb 2012, aim - Improvement (0117652): Removed unused code.
+[*] 01 Mar 2012, aim - Improvement (0119083): Updated a bundle of CA Root Certificates.
+[*] 01 Mar 2012, aim - Improvement (0117652): Adjusted selenium tests.
+[*] 15 Mar 2012, aim - Improvement (0119020): Updated inline advertisement in paid modules.
+[*] 15 Mar 2012, aim - Improvement (0117652): Updated xcart.sql
+[!] 20 Mar 2012, aim - Improvement (0119174, 0117303): Downgraded jQuery to version 1.6.4 due to multiple problems in MSIE and One_Page_Checkout module.
+[!] 26 Mar 2012, aim - Bug (0119962): SQL error appears on the include/version.php page when the Product_Options module is disabled. Fixed.
+[*] 27 Mar 2012, aim - Improvement (0119975): Changed License agreement.
+[*] 27 Mar 2012, aim - Improvement (0120047): Added favicon.ico to xcart_root.
+[!] 28 Mar 2012, aim - Bug (0120058): shop_closed.html fails to appear with clean URLs enabled. Fixed.
+[!] 02 Apr 2012, aim - Bug (0120210): SQL error "Duplicate entry for key 'page'" appears for the xcart_stats_pages table. Fixed.
+[*] 02 Apr 2012, ferz - Improvement (0120203): Removed developer's TODO comments from php files.
+

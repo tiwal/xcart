@@ -1,0 +1,1 @@
+0c3cb39e8e115ff5123398f14399f895a:4:{s:12:"lbl_keywords";s:15:"Search keywords";s:20:"lbl_no_results_found";s:46:"No items found. Try different search criteria.";s:26:"lbl_quick_search_nopattern";s:26:"No search pattern defined.";s:13:"lbl_searching";s:9:"Searching";}

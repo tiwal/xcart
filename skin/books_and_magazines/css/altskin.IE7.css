@@ -1,0 +1,27 @@
+.ajax-minicart .title-bar img.minicart-button {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.fancycat-icons-e ul {
+  width: 227px;
+}
+.fancycat-icons-e li ul li {
+  width: 216px;
+}
+ 
+.fancycat-icons-e li ul {
+  left: 221px;
+}
+.fancycat-icons-e li ul.fancycat-icons-level-1 li ul {
+  left: 212px;
+}
+a.product-title {
+	zoom: 1;
+}
+.dialog .content {
+	zoom: 1;
+}
+.cart .buttons .left-buttons-row {
+	min-width: 300px;
+}

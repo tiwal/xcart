@@ -1,0 +1,1 @@
+760a2f84f21e3d831afbfa500366c7efa:1:{s:13:"lbl_your_cart";s:9:"Your cart";}

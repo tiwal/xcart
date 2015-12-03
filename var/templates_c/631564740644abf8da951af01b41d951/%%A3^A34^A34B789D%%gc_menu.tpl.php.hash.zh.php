@@ -1,0 +1,1 @@
+eac9c9f01311ed08d05cc00594c296c9a:1:{s:26:"lbl_gift_certificates_link";s:108:"<img src="./skin/ideal_comfort/images/custom/gc_link.png" width="250" height="53" alt="Gift Certificates" />";}

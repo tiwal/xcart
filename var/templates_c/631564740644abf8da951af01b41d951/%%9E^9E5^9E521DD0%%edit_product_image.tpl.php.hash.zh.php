@@ -1,0 +1,1 @@
+5bdce9ceda1f17850f7f3068e17a47d9a:1:{s:18:"lbl_view_full_size";s:21:"View full-sized image";}
